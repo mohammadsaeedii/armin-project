@@ -1,0 +1,1204 @@
+{
+  "retrieved_date": "2026-10-17",
+  "source_url": "https://api.crossref.org/works/10.1088/1741-2552/ac2bf8",
+  "response": {
+    "status": "ok",
+    "message-type": "work",
+    "message-version": "1.0.0",
+    "message": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            10,
+            15
+          ]
+        ],
+        "date-time": "2026-10-15T17:40:17Z",
+        "timestamp": 1792086017942,
+        "version": "4.4.0"
+      },
+      "reference-count": 79,
+      "publisher": "IOP Publishing",
+      "issue": "5",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2021,
+                10,
+                14
+              ]
+            ],
+            "date-time": "2021-10-14T00:00:00Z",
+            "timestamp": 1634169600000
+          },
+          "content-version": "vor",
+          "delay-in-days": 13,
+          "URL": "http://creativecommons.org/licenses/by/4.0"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2021,
+                10,
+                14
+              ]
+            ],
+            "date-time": "2021-10-14T00:00:00Z",
+            "timestamp": 1634169600000
+          },
+          "content-version": "tdm",
+          "delay-in-days": 13,
+          "URL": "https://iopscience.iop.org/info/page/text-and-data-mining"
+        }
+      ],
+      "funder": [
+        {
+          "DOI": "10.13039/501100004543",
+          "name": "Chinese Scholarship Council",
+          "doi-asserted-by": "crossref",
+          "award": [
+            "201708620182"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "201708620182"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "10.13039/501100004543",
+              "id-type": "DOI",
+              "asserted-by": "crossref"
+            }
+          ]
+        },
+        {
+          "DOI": "10.13039/501100003130",
+          "name": "Fonds Wetenschappelijk Onderzoek",
+          "doi-asserted-by": "crossref",
+          "award": [
+            "EOS.30446199"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "EOS.30446199"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "10.13039/501100003130",
+              "id-type": "DOI",
+              "asserted-by": "crossref"
+            }
+          ]
+        },
+        {
+          "name": "Guangdong Natural Science Foundation Joint Fund",
+          "award": [
+            "No. 2019A1515111038"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "No. 2019A1515111038"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "High-level University Fund",
+          "award": [
+            "G02386301"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "G02386301"
+              ]
+            }
+          ]
+        }
+      ],
+      "content-domain": {
+        "domain": [
+          "iopscience.iop.org"
+        ],
+        "crossmark-restriction": false
+      },
+      "short-container-title": [
+        "J. Neural Eng."
+      ],
+      "published-print": {
+        "date-parts": [
+          [
+            2021,
+            10,
+            1
+          ]
+        ]
+      },
+      "DOI": "10.1088/1741-2552/ac2bf8",
+      "type": "journal-article",
+      "created": {
+        "date-parts": [
+          [
+            2021,
+            10,
+            1
+          ]
+        ],
+        "date-time": "2021-10-01T05:11:14Z",
+        "timestamp": 1633065074000
+      },
+      "page": "056057",
+      "update-policy": "https://doi.org/10.1088/crossmark-policy",
+      "source": "Crossref",
+      "is-referenced-by-count": 256,
+      "title": [
+        "EEGdenoiseNet: a benchmark dataset for deep learning solutions of EEG denoising"
+      ],
+      "prefix": "10.1088",
+      "volume": "18",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0002-0756-2407",
+          "authenticated-orcid": false,
+          "given": "Haoming",
+          "family": "Zhang",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-2804-9565",
+          "authenticated-orcid": false,
+          "given": "Mingqi",
+          "family": "Zhao",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-2999-2771",
+          "authenticated-orcid": false,
+          "given": "Chen",
+          "family": "Wei",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-6485-5559",
+          "authenticated-orcid": false,
+          "given": "Dante",
+          "family": "Mantini",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-7992-9995",
+          "authenticated-orcid": false,
+          "given": "Zherui",
+          "family": "Li",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-2501-7656",
+          "authenticated-orcid": false,
+          "given": "Quanying",
+          "family": "Liu",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "266",
+      "published-online": {
+        "date-parts": [
+          [
+            2021,
+            10,
+            14
+          ]
+        ]
+      },
+      "reference": [
+        {
+          "key": "jneac2bf8bib1",
+          "doi-asserted-by": "publisher",
+          "first-page": "127",
+          "DOI": "10.1016/j.inffus.2020.01.008",
+          "article-title": "Feature-level fusion approaches based on multimodal EEG data for depression recognition",
+          "volume": "59",
+          "author": "Cai",
+          "year": "2020",
+          "journal-title": "Inf. Fusion"
+        },
+        {
+          "key": "jneac2bf8bib2",
+          "doi-asserted-by": "publisher",
+          "first-page": "190",
+          "DOI": "10.1016/j.cogbrainres.2005.01.014",
+          "article-title": "EEG evidence for mirror neuron dysfunction in autism spectrum disorders",
+          "volume": "24",
+          "author": "Oberman",
+          "year": "2005",
+          "journal-title": "Cogn. Brain Res."
+        },
+        {
+          "key": "jneac2bf8bib3",
+          "doi-asserted-by": "publisher",
+          "first-page": "252",
+          "DOI": "10.1016/0013-4694(91)90040-B",
+          "article-title": "An EEG-based brain-computer interface for cursor control",
+          "volume": "78",
+          "author": "Wolpaw",
+          "year": "1991",
+          "journal-title": "Electroencephalogr. Clin. Neurophysiol."
+        },
+        {
+          "key": "jneac2bf8bib4",
+          "doi-asserted-by": "publisher",
+          "first-page": "2719",
+          "DOI": "10.1016/j.clinph.2005.07.007",
+          "article-title": "Human EEG gamma oscillations in neuropsychiatric disorders",
+          "volume": "116",
+          "author": "Herrmann",
+          "year": "2005",
+          "journal-title": "Clin. Neurophysiol."
+        },
+        {
+          "key": "jneac2bf8bib5",
+          "doi-asserted-by": "publisher",
+          "first-page": "4631",
+          "DOI": "10.1002/hbm.23688",
+          "article-title": "Detecting large-scale networks in the human brain using high-density electroencephalography",
+          "volume": "38",
+          "author": "Liu",
+          "year": "2017",
+          "journal-title": "Hum. Brain Mapp."
+        },
+        {
+          "key": "jneac2bf8bib6",
+          "doi-asserted-by": "publisher",
+          "first-page": "1",
+          "DOI": "10.1038/s41598-019-55369-3",
+          "article-title": "Hand, foot and lip representations in primary sensorimotor cortex: a high-density electroencephalography study",
+          "volume": "9",
+          "author": "Zhao",
+          "year": "2019",
+          "journal-title": "Sci. Rep."
+        },
+        {
+          "key": "jneac2bf8bib7",
+          "doi-asserted-by": "publisher",
+          "first-page": "5",
+          "DOI": "10.1016/S0987-7053(00)00055-1",
+          "article-title": "Removal of ocular artifact from the EEG: a review",
+          "volume": "30",
+          "author": "Croft",
+          "year": "2000",
+          "journal-title": "Clin. Neurophysiol."
+        },
+        {
+          "key": "jneac2bf8bib8",
+          "doi-asserted-by": "publisher",
+          "first-page": "138",
+          "DOI": "10.3389/fnhum.2013.00138",
+          "article-title": "High-frequency brain activity and muscle artifacts in MEG/EEG: a review and recommendations",
+          "volume": "7",
+          "author": "Muthukumaraswamy",
+          "year": "2013",
+          "journal-title": "Front. Hum. Neurosci."
+        },
+        {
+          "key": "jneac2bf8bib9",
+          "doi-asserted-by": "publisher",
+          "first-page": "181",
+          "DOI": "10.1016/j.neuroimage.2019.05.026",
+          "article-title": "ICLabel: an automated electroencephalographic independent component classifier, dataset and website",
+          "volume": "198",
+          "author": "Piontonachini",
+          "year": "2019",
+          "journal-title": "Neuroimage"
+        },
+        {
+          "key": "jneac2bf8bib10",
+          "author": "Cohen",
+          "year": "2014"
+        },
+        {
+          "key": "jneac2bf8bib11",
+          "doi-asserted-by": "publisher",
+          "first-page": "47",
+          "DOI": "10.1016/j.jneumeth.2015.02.025",
+          "article-title": "A practical guide to the selection of independent components of the electroencephalogram for artifact correction",
+          "volume": "250",
+          "author": "Chaumon",
+          "year": "2015",
+          "journal-title": "J. Neurosci. Methods"
+        },
+        {
+          "key": "jneac2bf8bib12",
+          "doi-asserted-by": "publisher",
+          "first-page": "2416",
+          "DOI": "10.1016/j.neuroimage.2009.10.010",
+          "article-title": "Validation of ICA-based myogenic artifact correction for scalp and source-localized EEG",
+          "volume": "49",
+          "author": "Mcmenamin",
+          "year": "2010",
+          "journal-title": "Neuroimage"
+        },
+        {
+          "key": "jneac2bf8bib13",
+          "doi-asserted-by": "publisher",
+          "first-page": "468",
+          "DOI": "10.1016/0013-4694(83)90135-9",
+          "article-title": "A new method for off-line removal of ocular artifact",
+          "volume": "55",
+          "author": "Gratton",
+          "year": "1983",
+          "journal-title": "Electroencephalogr. Clin. Neurophysiol."
+        },
+        {
+          "key": "jneac2bf8bib14",
+          "doi-asserted-by": "publisher",
+          "first-page": "123",
+          "DOI": "10.1111/1469-8986.3710123",
+          "article-title": "EOG correction: which regression should we use?",
+          "volume": "37",
+          "author": "Croft",
+          "year": "2000",
+          "journal-title": "Psychophysiology"
+        },
+        {
+          "key": "jneac2bf8bib15",
+          "doi-asserted-by": "publisher",
+          "first-page": "578",
+          "DOI": "10.1111/j.1469-8986.2009.00787.x",
+          "article-title": "Validation of regression-based myogenic correction techniques for scalp and source-localized EEG",
+          "volume": "46",
+          "author": "McMenamin",
+          "year": "2009",
+          "journal-title": "Psychophysiology"
+        },
+        {
+          "key": "jneac2bf8bib16",
+          "doi-asserted-by": "publisher",
+          "first-page": "407",
+          "DOI": "10.1007/BF02344717",
+          "article-title": "Removal of ocular artifacts from electro-encephalogram by adaptive filtering",
+          "volume": "42",
+          "author": "He",
+          "year": "2004",
+          "journal-title": "Med. Biol. Eng. Comput."
+        },
+        {
+          "key": "jneac2bf8bib17",
+          "doi-asserted-by": "publisher",
+          "first-page": "495",
+          "DOI": "10.1007/s11517-007-0179-9",
+          "article-title": "Removal of ocular artifacts from the EEG: a comparison between time-domain regression method and adaptive filtering method using simulated data",
+          "volume": "45",
+          "author": "He",
+          "year": "2007",
+          "journal-title": "Med. Biol. Eng. Comput."
+        },
+        {
+          "key": "jneac2bf8bib18",
+          "doi-asserted-by": "publisher",
+          "first-page": "37",
+          "DOI": "10.1016/0169-7439(87)80084-9",
+          "article-title": "Principal component analysis",
+          "volume": "2",
+          "author": "Wold",
+          "year": "1987",
+          "journal-title": "Chemometr. Intell. Lab. Syst."
+        },
+        {
+          "key": "jneac2bf8bib19",
+          "doi-asserted-by": "publisher",
+          "first-page": "411",
+          "DOI": "10.1016/S0893-6080(00)00026-5",
+          "article-title": "Independent component analysis: algorithms and applications",
+          "volume": "13",
+          "author": "Hyvärinen",
+          "year": "2000",
+          "journal-title": "Neural Netw."
+        },
+        {
+          "key": "jneac2bf8bib20",
+          "doi-asserted-by": "publisher",
+          "first-page": "5353",
+          "DOI": "10.1109/JSEN.2019.2906572",
+          "article-title": "Removal of muscle artifacts from the EEG: a review and recommendations",
+          "volume": "19",
+          "author": "Chen",
+          "year": "2019",
+          "journal-title": "IEEE Sens. J."
+        },
+        {
+          "key": "jneac2bf8bib21",
+          "doi-asserted-by": "publisher",
+          "first-page": "1745",
+          "DOI": "10.1016/S1388-2457(00)00386-2",
+          "article-title": "Removal of eye activity artifacts from visual event-related potentials in normal and clinical subjects",
+          "volume": "111",
+          "author": "Jung",
+          "year": "2000",
+          "journal-title": "Clin. Neurophysiol."
+        },
+        {
+          "key": "jneac2bf8bib22",
+          "doi-asserted-by": "publisher",
+          "first-page": "1097",
+          "DOI": "10.1145/3065386",
+          "article-title": "Imagenet classification with deep convolutional neural networks",
+          "author": "Krizhevsky",
+          "year": "2012"
+        },
+        {
+          "key": "jneac2bf8bib23",
+          "doi-asserted-by": "publisher",
+          "first-page": "770",
+          "DOI": "10.1109/CVPR.2016.90",
+          "article-title": "Deep residual learning for image recognition",
+          "author": "He",
+          "year": "2016"
+        },
+        {
+          "key": "jneac2bf8bib24",
+          "article-title": "Efficient estimation of word representations in vector space",
+          "author": "Mikolov",
+          "year": "2013"
+        },
+        {
+          "key": "jneac2bf8bib25",
+          "first-page": "5998",
+          "article-title": "Attention is all you need",
+          "author": "Vaswani",
+          "year": "2017"
+        },
+        {
+          "key": "jneac2bf8bib26",
+          "article-title": "Very deep convolutional networks for large-scale image recognition",
+          "author": "Simonyan",
+          "year": "2014"
+        },
+        {
+          "key": "jneac2bf8bib27",
+          "doi-asserted-by": "publisher",
+          "first-page": "2818",
+          "DOI": "10.1109/CVPR.2016.308",
+          "article-title": "Rethinking the inception architecture for computer vision",
+          "author": "Szegedy",
+          "year": "2016"
+        },
+        {
+          "key": "jneac2bf8bib28",
+          "first-page": "3104",
+          "article-title": "Sequence to sequence learning with neural networks",
+          "author": "Sutskever",
+          "year": "2014"
+        },
+        {
+          "key": "jneac2bf8bib29",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1088/1741-2552/ab260c",
+          "article-title": "Deep learning-based electroencephalography analysis: a systematic review",
+          "volume": "16",
+          "author": "Roy",
+          "year": "2019",
+          "journal-title": "J. Neural Eng."
+        },
+        {
+          "key": "jneac2bf8bib30",
+          "doi-asserted-by": "publisher",
+          "first-page": "2736",
+          "DOI": "10.1109/EUSIPCO.2015.7362882",
+          "article-title": "Parallel convolutional-linear neural network for motor imagery classification",
+          "author": "Sakhavi",
+          "year": "2015"
+        },
+        {
+          "key": "jneac2bf8bib31",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1088/1741-2560/14/1/016003",
+          "article-title": "A novel deep learning approach for classification of EEG motor imagery signals",
+          "volume": "14",
+          "author": "Tabar",
+          "year": "2017",
+          "journal-title": "J. Neural Eng."
+        },
+        {
+          "key": "jneac2bf8bib32",
+          "doi-asserted-by": "publisher",
+          "first-page": "11",
+          "DOI": "10.1016/j.ijleo.2016.10.117",
+          "article-title": "Single-trial EEG classification of motor imagery using deep convolutional neural networks",
+          "volume": "130",
+          "author": "Tang",
+          "year": "2017",
+          "journal-title": "Optik"
+        },
+        {
+          "key": "jneac2bf8bib33",
+          "doi-asserted-by": "publisher",
+          "first-page": "15",
+          "DOI": "10.3389/fninf.2020.00015",
+          "article-title": "EEG signal reconstruction using a generative adversarial network with Wasserstein distance and temporal-spatial-frequency loss",
+          "volume": "14",
+          "author": "Luo",
+          "year": "2020",
+          "journal-title": "Front. Neuroinform."
+        },
+        {
+          "key": "jneac2bf8bib34",
+          "doi-asserted-by": "publisher",
+          "first-page": "100",
+          "DOI": "10.1109/BHI.2018.8333379",
+          "article-title": "Deep EEG super-resolution: upsampling EEG spatial resolution with generative adversarial networks",
+          "author": "Corley",
+          "year": "2018"
+        },
+        {
+          "key": "jneac2bf8bib35",
+          "article-title": "EEG-GAN: generative adversarial networks for electroencephalograhic (EEG) brain signals",
+          "author": "Hartmann",
+          "year": "2018"
+        },
+        {
+          "key": "jneac2bf8bib36",
+          "doi-asserted-by": "publisher",
+          "first-page": "4039",
+          "DOI": "10.1109/TNNLS.2020.3016666",
+          "article-title": "Generative adversarial networks-based data augmentation for brain–computer interface",
+          "volume": "32",
+          "author": "Fahimi",
+          "year": "2020",
+          "journal-title": "IEEE Trans. Neural Netw. Learn. Syst."
+        },
+        {
+          "key": "jneac2bf8bib37",
+          "doi-asserted-by": "publisher",
+          "first-page": "148",
+          "DOI": "10.1016/j.bspc.2018.02.021",
+          "article-title": "Automatic ocular artifacts removal in EEG using deep learning",
+          "volume": "43",
+          "author": "Yang",
+          "year": "2018",
+          "journal-title": "Biomed. Signal Process. Control"
+        },
+        {
+          "key": "jneac2bf8bib38",
+          "doi-asserted-by": "publisher",
+          "first-page": "108",
+          "DOI": "10.1016/j.neucom.2020.04.029",
+          "article-title": "A novel end-to-end 1D-ResCNN model to remove artifact from EEG signals",
+          "volume": "404",
+          "author": "Sun",
+          "year": "2020",
+          "journal-title": "Neurocomputing"
+        },
+        {
+          "key": "jneac2bf8bib39",
+          "article-title": "Noise reduction in EEG signals using convolutional autoencoding techniques",
+          "author": "Hanrahan",
+          "year": "2019"
+        },
+        {
+          "key": "jneac2bf8bib40",
+          "doi-asserted-by": "publisher",
+          "first-page": "1265",
+          "DOI": "10.1109/ICASSP39728.2021.9414228",
+          "article-title": "A novel convolutional neural network model to remove muscle artifacts from EEG",
+          "author": "Zhang",
+          "year": "2020"
+        },
+        {
+          "key": "jneac2bf8bib41",
+          "doi-asserted-by": "publisher",
+          "first-page": "248",
+          "DOI": "10.1109/CVPR.2009.5206848",
+          "article-title": "ImageNet: a large-scale hierarchical image database",
+          "author": "Deng",
+          "year": "2009"
+        },
+        {
+          "key": "jneac2bf8bib42",
+          "article-title": "FMA: a dataset for music analysis",
+          "author": "Defferrard",
+          "year": "2016"
+        },
+        {
+          "key": "jneac2bf8bib43",
+          "article-title": "Building a web-scale dependency-parsed corpus from CommonCrawl",
+          "author": "Panchenko",
+          "year": "2017"
+        },
+        {
+          "key": "jneac2bf8bib44",
+          "doi-asserted-by": "publisher",
+          "first-page": "425",
+          "DOI": "10.3389/fnins.2017.00425",
+          "article-title": "The effect of electroencephalogram (EEG) reference choice on information-theoretic measures of the complexity and integration of EEG signals",
+          "volume": "11",
+          "author": "Trujillo",
+          "year": "2017",
+          "journal-title": "Front. Neurosci."
+        },
+        {
+          "key": "jneac2bf8bib45",
+          "doi-asserted-by": "publisher",
+          "first-page": "2550",
+          "DOI": "10.1109/JBHI.2020.2980056",
+          "article-title": "Prediction of reaction time and vigilance variability from spatio-spectral features of resting-state EEG in a long sustained attention task",
+          "volume": "24",
+          "author": "Torkamani-Azar",
+          "year": "2020",
+          "journal-title": "IEEE J. Biomed. Health Inform."
+        },
+        {
+          "key": "jneac2bf8bib46",
+          "doi-asserted-by": "publisher",
+          "first-page": "18",
+          "DOI": "10.1109/T-AFFC.2011.15",
+          "article-title": "DEAP: a database for emotion analysis; using physiological signals",
+          "volume": "3",
+          "author": "Koelstra",
+          "year": "2011",
+          "journal-title": "IEEE Trans. Affective Comput."
+        },
+        {
+          "key": "jneac2bf8bib47",
+          "article-title": "Building brain invaders: EEG data of an experimental validation",
+          "author": "Van Veen",
+          "year": "2019"
+        },
+        {
+          "key": "jneac2bf8bib48",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.5281/zenodo.3266930",
+          "article-title": "Brain invaders calibration-less P300-based BCI with modulation of flash duration dataset (bi2015a)",
+          "volume": "1",
+          "author": "Korczowski",
+          "year": "2019",
+          "journal-title": "Arch. Ouvertes"
+        },
+        {
+          "key": "jneac2bf8bib49",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/sdata.2014.47",
+          "article-title": "Multi-channel EEG recordings during 3,936 grasp and lift trials with varying weight and friction",
+          "volume": "1",
+          "author": "Luciw",
+          "year": "2014",
+          "journal-title": "Sci. Data"
+        },
+        {
+          "key": "jneac2bf8bib50",
+          "doi-asserted-by": "publisher",
+          "first-page": "5391",
+          "DOI": "10.1002/hbm.23730",
+          "article-title": "Deep learning with convolutional neural networks for EEG decoding and visualization",
+          "volume": "38",
+          "author": "Schirrmeister",
+          "year": "2017",
+          "journal-title": "Hum. Brain Mapp."
+        },
+        {
+          "key": "jneac2bf8bib51",
+          "doi-asserted-by": "publisher",
+          "first-page": "1034",
+          "DOI": "10.1109/TBME.2004.827072",
+          "article-title": "BCI2000: a general-purpose brain-computer interface (BCI) system",
+          "volume": "51",
+          "author": "Schalk",
+          "year": "2004",
+          "journal-title": "IEEE Trans. Biomed. Eng."
+        },
+        {
+          "key": "jneac2bf8bib52",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/sdata.2018.211",
+          "article-title": "A large electroencephalographic motor imagery dataset for electroencephalographic brain computer interfaces",
+          "volume": "5",
+          "author": "Kaya",
+          "year": "2018",
+          "journal-title": "Sci. Data"
+        },
+        {
+          "key": "jneac2bf8bib53",
+          "doi-asserted-by": "publisher",
+          "first-page": "gix034",
+          "DOI": "10.1093/gigascience/gix034",
+          "article-title": "EEG datasets for motor imagery brain computer interface",
+          "volume": "6",
+          "author": "Hohyun",
+          "year": "2017",
+          "journal-title": "Gigaence"
+        },
+        {
+          "key": "jneac2bf8bib54",
+          "doi-asserted-by": "publisher",
+          "first-page": "20",
+          "DOI": "10.1016/j.neucom.2016.01.057",
+          "article-title": "Assessing the effects of voluntary and involuntary eyeblinks in independent components of electroencephalogram",
+          "volume": "193",
+          "author": "Kanoga",
+          "year": "2016",
+          "journal-title": "Neurocomputing"
+        },
+        {
+          "key": "jneac2bf8bib55",
+          "doi-asserted-by": "publisher",
+          "first-page": "480",
+          "DOI": "10.1016/j.clinph.2006.10.019",
+          "article-title": "EMG and EOG artifacts in brain computer interface systems: a survey",
+          "volume": "118",
+          "author": "Fatourechi",
+          "year": "2007",
+          "journal-title": "Clin. Neurophysiol."
+        },
+        {
+          "key": "jneac2bf8bib56",
+          "doi-asserted-by": "publisher",
+          "first-page": "208",
+          "DOI": "10.1088/1741-2560/3/3/003",
+          "article-title": "Seperability of four-class motor imagery data using independent components analysis",
+          "volume": "3",
+          "author": "Naeem",
+          "year": "2006",
+          "journal-title": "J. Neural Eng."
+        },
+        {
+          "key": "jneac2bf8bib57",
+          "doi-asserted-by": "publisher",
+          "first-page": "98",
+          "DOI": "10.1016/j.clinph.2006.09.003",
+          "article-title": "A fully automated correction method of eog artifacts in EEG recordings",
+          "volume": "118",
+          "author": "Schlögl",
+          "year": "2007",
+          "journal-title": "Clin. Neurophysiol."
+        },
+        {
+          "key": "jneac2bf8bib58",
+          "author": "Schlögl",
+          "year": "2007"
+        },
+        {
+          "key": "jneac2bf8bib59",
+          "doi-asserted-by": "publisher",
+          "first-page": "1688",
+          "DOI": "10.1109/EMBC.2016.7591040",
+          "article-title": "A survey on the feasibility of surface EMG in facial pacing",
+          "author": "Rantanen",
+          "year": "2016"
+        },
+        {
+          "key": "jneac2bf8bib60",
+          "doi-asserted-by": "publisher",
+          "first-page": "957",
+          "DOI": "10.1016/j.patrec.2007.01.002",
+          "article-title": "Spatial filtering and selection of optimized components in four class motor imagery EEG data using independent components analysis",
+          "volume": "28",
+          "author": "Brunner",
+          "year": "2007",
+          "journal-title": "Pattern Recognit. Lett."
+        },
+        {
+          "key": "jneac2bf8bib61",
+          "doi-asserted-by": "publisher",
+          "first-page": "1301",
+          "DOI": "10.1109/JBHI.2015.2450196",
+          "article-title": "The removal of EOG artifacts from EEG signals using independent component analysis and multivariate empirical mode decomposition",
+          "volume": "20",
+          "author": "Wang",
+          "year": "2016",
+          "journal-title": "IEEE J. Biomed. Health Inform."
+        },
+        {
+          "key": "jneac2bf8bib62",
+          "doi-asserted-by": "publisher",
+          "first-page": "1770",
+          "DOI": "10.1109/TIM.2016.2608479",
+          "article-title": "Independent vector analysis applied to remove muscle artifacts in EEG data",
+          "volume": "66",
+          "author": "Chen",
+          "year": "2017",
+          "journal-title": "IEEE Trans. Instrum. Meas."
+        },
+        {
+          "key": "jneac2bf8bib63",
+          "doi-asserted-by": "publisher",
+          "first-page": "2583",
+          "DOI": "10.1109/TBME.2006.879459",
+          "article-title": "Canonical correlation analysis applied to remove muscle artifacts from the electroencephalogram",
+          "volume": "53",
+          "author": "De Clercq",
+          "year": "2006",
+          "journal-title": "IEEE Trans. Biomed. Eng."
+        },
+        {
+          "key": "jneac2bf8bib64",
+          "article-title": "A study of cross-validation and bootstrap for accuracy estimation and model selection",
+          "author": "Kohavi",
+          "year": "1995"
+        },
+        {
+          "key": "jneac2bf8bib65",
+          "article-title": "Improving neural networks by preventing co-adaptation of feature detectors",
+          "author": "Hinton",
+          "year": "2012"
+        },
+        {
+          "key": "jneac2bf8bib66",
+          "article-title": "Batch normalization: accelerating deep network training by reducing internal covariate shift",
+          "author": "Ioffe",
+          "year": "2015"
+        },
+        {
+          "key": "jneac2bf8bib67",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.5244/C.30.87",
+          "article-title": "Wide residual networks",
+          "author": "Zagoruyko",
+          "year": "2016"
+        },
+        {
+          "key": "jneac2bf8bib68",
+          "doi-asserted-by": "publisher",
+          "first-page": "1735",
+          "DOI": "10.1162/neco.1997.9.8.1735",
+          "article-title": "Long short-term memory",
+          "volume": "9",
+          "author": "Hochreiter",
+          "year": "1997",
+          "journal-title": "Neural Comput."
+        },
+        {
+          "key": "jneac2bf8bib69",
+          "author": "Zhang"
+        },
+        {
+          "key": "jneac2bf8bib70",
+          "first-page": "1",
+          "article-title": "Hilbert–Huang transform based hierarchical clustering for EEG denoising",
+          "author": "Mert",
+          "year": "2014"
+        },
+        {
+          "key": "jneac2bf8bib71",
+          "doi-asserted-by": "publisher",
+          "first-page": "1004",
+          "DOI": "10.1016/j.dib.2016.06.032",
+          "article-title": "A semi-simulated EEG/EOG dataset for the comparison of EOG artifact rejection techniques",
+          "volume": "8",
+          "author": "Klados",
+          "year": "2016",
+          "journal-title": "Data Brief"
+        },
+        {
+          "key": "jneac2bf8bib72",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1088/1741-2552/aacfdf",
+          "article-title": "Online EEG artifact removal for BCI applications by adaptive spatial filtering",
+          "volume": "15",
+          "author": "Guarnieri",
+          "year": "2018",
+          "journal-title": "J. Neural Eng."
+        },
+        {
+          "key": "jneac2bf8bib73",
+          "doi-asserted-by": "publisher",
+          "first-page": "374",
+          "DOI": "10.1016/j.neucom.2012.04.016",
+          "article-title": "EOG artifact removal using a wavelet neural network",
+          "volume": "97",
+          "author": "Nguyen",
+          "year": "2012",
+          "journal-title": "Neurocomputing"
+        },
+        {
+          "key": "jneac2bf8bib74",
+          "doi-asserted-by": "publisher",
+          "first-page": "127",
+          "DOI": "10.1016/0301-0511(83)90059-5",
+          "article-title": "The removal of the eye-movement artifact from the EEG by regression analysis in the frequency domain",
+          "volume": "16",
+          "author": "Woestenburg",
+          "year": "1983",
+          "journal-title": "Biol. Psychol."
+        },
+        {
+          "key": "jneac2bf8bib75",
+          "doi-asserted-by": "publisher",
+          "first-page": "455",
+          "DOI": "10.1016/0013-4694(85)91020-X",
+          "article-title": "Removal of ocular artifacts from the EEG—a biophysical approach to the EOG",
+          "volume": "60",
+          "author": "Elbert",
+          "year": "1985",
+          "journal-title": "Electroencephalogr. Clin. Neurophysiol."
+        },
+        {
+          "key": "jneac2bf8bib76",
+          "doi-asserted-by": "publisher",
+          "first-page": "130",
+          "DOI": "10.1109/NORSIG.2006.275210",
+          "article-title": "Automatic removal of ocular artifacts in the EEG without an EOG reference channel",
+          "author": "Gómez-Herrero",
+          "year": "2006"
+        },
+        {
+          "key": "jneac2bf8bib77",
+          "doi-asserted-by": "publisher",
+          "first-page": "1770",
+          "DOI": "10.1109/TIM.2016.2608479",
+          "article-title": "Independent vector analysis applied to remove muscle artifacts in EEG data",
+          "volume": "66",
+          "author": "Chen",
+          "year": "2017",
+          "journal-title": "IEEE Trans. Instrum. Meas."
+        },
+        {
+          "key": "jneac2bf8bib78",
+          "article-title": "Frequency principle: Fourier analysis sheds light on deep neural networks",
+          "author": "John Xu",
+          "year": "2019"
+        },
+        {
+          "key": "jneac2bf8bib79",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cmpbup.2021.100027",
+          "article-title": "A new method for accurate detection of movement intention from single channel EEG for online BCI",
+          "volume": "1",
+          "author": "Mahmoodi",
+          "year": "2021",
+          "journal-title": "Comput. Methods Programs Biomed."
+        }
+      ],
+      "container-title": [
+        "Journal of Neural Engineering"
+      ],
+      "original-title": [],
+      "link": [
+        {
+          "URL": "https://iopscience.iop.org/article/10.1088/1741-2552/ac2bf8",
+          "content-type": "text/html",
+          "content-version": "am",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://iopscience.iop.org/article/10.1088/1741-2552/ac2bf8/pdf",
+          "content-type": "application/pdf",
+          "content-version": "am",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://iopscience.iop.org/article/10.1088/1741-2552/ac2bf8",
+          "content-type": "text/html",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://iopscience.iop.org/article/10.1088/1741-2552/ac2bf8/pdf",
+          "content-type": "application/pdf",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://iopscience.iop.org/article/10.1088/1741-2552/ac2bf8/pdf",
+          "content-type": "application/pdf",
+          "content-version": "am",
+          "intended-application": "syndication"
+        },
+        {
+          "URL": "https://iopscience.iop.org/article/10.1088/1741-2552/ac2bf8/pdf",
+          "content-type": "application/pdf",
+          "content-version": "vor",
+          "intended-application": "syndication"
+        },
+        {
+          "URL": "https://iopscience.iop.org/article/10.1088/1741-2552/ac2bf8/pdf",
+          "content-type": "application/pdf",
+          "content-version": "am",
+          "intended-application": "similarity-checking"
+        },
+        {
+          "URL": "https://iopscience.iop.org/article/10.1088/1741-2552/ac2bf8/pdf",
+          "content-type": "application/pdf",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2021,
+            10,
+            12
+          ]
+        ],
+        "date-time": "2021-10-12T06:30:14Z",
+        "timestamp": 1634020214000
+      },
+      "score": 1,
+      "resource": {
+        "primary": {
+          "URL": "https://iopscience.iop.org/article/10.1088/1741-2552/ac2bf8"
+        }
+      },
+      "subtitle": [],
+      "short-title": [],
+      "issued": {
+        "date-parts": [
+          [
+            2021,
+            10,
+            1
+          ]
+        ]
+      },
+      "references-count": 79,
+      "journal-issue": {
+        "issue": "5",
+        "published-online": {
+          "date-parts": [
+            [
+              2021,
+              10,
+              14
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2021,
+              10,
+              1
+            ]
+          ]
+        }
+      },
+      "URL": "https://doi.org/10.1088/1741-2552/ac2bf8",
+      "relation": {},
+      "ISSN": [
+        "1741-2560",
+        "1741-2552"
+      ],
+      "issn-type": [
+        {
+          "value": "1741-2560",
+          "type": "print"
+        },
+        {
+          "value": "1741-2552",
+          "type": "electronic"
+        }
+      ],
+      "subject": [],
+      "published": {
+        "date-parts": [
+          [
+            2021,
+            10,
+            1
+          ]
+        ]
+      },
+      "assertion": [
+        {
+          "value": "EEGdenoiseNet: a benchmark dataset for deep learning solutions of EEG denoising",
+          "name": "article_title",
+          "label": "Article Title"
+        },
+        {
+          "value": "Journal of Neural Engineering",
+          "name": "journal_title",
+          "label": "Journal Title"
+        },
+        {
+          "value": "paper",
+          "name": "article_type",
+          "label": "Article Type"
+        },
+        {
+          "value": "© 2021 The Author(s). Published by IOP Publishing Ltd",
+          "name": "copyright_information",
+          "label": "Copyright Information"
+        },
+        {
+          "value": "2021-04-03",
+          "name": "date_received",
+          "label": "Date Received",
+          "group": {
+            "name": "publication_dates",
+            "label": "Publication dates"
+          }
+        },
+        {
+          "value": "2021-09-29",
+          "name": "date_accepted",
+          "label": "Date Accepted",
+          "group": {
+            "name": "publication_dates",
+            "label": "Publication dates"
+          }
+        },
+        {
+          "value": "2021-10-14",
+          "name": "date_epub",
+          "label": "Online publication date",
+          "group": {
+            "name": "publication_dates",
+            "label": "Publication dates"
+          }
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,788 @@
+{
+  "retrieved_date": "2026-10-17",
+  "source_url": "https://api.crossref.org/works/10.1016/j.ultras.2026.108054",
+  "response": {
+    "status": "ok",
+    "message-type": "work",
+    "message-version": "1.0.0",
+    "message": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            4,
+            14
+          ]
+        ],
+        "date-time": "2026-04-14T08:44:47Z",
+        "timestamp": 1776156287385,
+        "version": "3.50.1"
+      },
+      "reference-count": 45,
+      "publisher": "Elsevier BV",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2026,
+                8,
+                1
+              ]
+            ],
+            "date-time": "2026-08-01T00:00:00Z",
+            "timestamp": 1785542400000
+          },
+          "content-version": "tdm",
+          "delay-in-days": 0,
+          "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2026,
+                8,
+                1
+              ]
+            ],
+            "date-time": "2026-08-01T00:00:00Z",
+            "timestamp": 1785542400000
+          },
+          "content-version": "tdm",
+          "delay-in-days": 0,
+          "URL": "https://www.elsevier.com/legal/tdmrep-license"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2026,
+                3,
+                16
+              ]
+            ],
+            "date-time": "2026-03-16T00:00:00Z",
+            "timestamp": 1773619200000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "http://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "funder": [
+        {
+          "DOI": "10.13039/501100012166",
+          "name": "National Key Research and Development Program of China",
+          "doi-asserted-by": "publisher",
+          "id": [
+            {
+              "id": "10.13039/501100012166",
+              "id-type": "DOI",
+              "asserted-by": "publisher"
+            }
+          ]
+        },
+        {
+          "DOI": "10.13039/501100012165",
+          "name": "Key Technologies Research and Development Program",
+          "doi-asserted-by": "publisher",
+          "award": [
+            "2023YFF0716600"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "2023YFF0716600"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "10.13039/501100012165",
+              "id-type": "DOI",
+              "asserted-by": "publisher"
+            }
+          ]
+        }
+      ],
+      "content-domain": {
+        "domain": [
+          "elsevier.com",
+          "sciencedirect.com"
+        ],
+        "crossmark-restriction": true
+      },
+      "short-container-title": [
+        "Ultrasonics"
+      ],
+      "published-print": {
+        "date-parts": [
+          [
+            2026,
+            8
+          ]
+        ]
+      },
+      "DOI": "10.1016/j.ultras.2026.108054",
+      "type": "journal-article",
+      "created": {
+        "date-parts": [
+          [
+            2026,
+            3,
+            14
+          ]
+        ],
+        "date-time": "2026-03-14T23:33:31Z",
+        "timestamp": 1773531211000
+      },
+      "page": "108054",
+      "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "special_numbering": "C",
+      "title": [
+        "Application-specific guided-wave ultrasonic signal denoising: Knowledge-guided synthetic data pipeline and wavelet-initialized attention U-Net"
+      ],
+      "prefix": "10.1016",
+      "volume": "164",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0009-0000-3101-9861",
+          "authenticated-orcid": false,
+          "given": "Chao",
+          "family": "Qian",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Shuo",
+          "family": "Xia",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Pengfei",
+          "family": "Zhang",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Bin",
+          "family": "Yang",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Fuzai",
+          "family": "Lv",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Keji",
+          "family": "Yang",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0009-0005-8984-3462",
+          "authenticated-orcid": false,
+          "given": "Xi",
+          "family": "Wang",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-5591-8175",
+          "authenticated-orcid": false,
+          "given": "Zhifeng",
+          "family": "Tang",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "78",
+      "reference": [
+        {
+          "issue": "2",
+          "key": "10.1016/j.ultras.2026.108054_b0005",
+          "doi-asserted-by": "crossref",
+          "first-page": "3690",
+          "DOI": "10.1016/j.matpr.2017.11.620",
+          "article-title": "Advances and researches on non destructive testing: a review",
+          "volume": "5",
+          "author": "Dwivedi",
+          "year": "2018",
+          "journal-title": "Mater. Today Proc."
+        },
+        {
+          "key": "10.1016/j.ultras.2026.108054_b0010",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.ultras.2020.106227",
+          "article-title": "A review of ultrasonic testing applications in additive manufacturing: defect evaluation, material characterization, and process control",
+          "volume": "108",
+          "author": "Honarvar",
+          "year": "2020",
+          "journal-title": "Ultrasonics"
+        },
+        {
+          "issue": "8",
+          "key": "10.1016/j.ultras.2026.108054_b0015",
+          "first-page": "1334",
+          "article-title": "Review on non-destructive testing of composite materials in aircraft applications",
+          "volume": "8",
+          "author": "Boopathy",
+          "year": "2017",
+          "journal-title": "Int. J. Mech. Eng. Technol."
+        },
+        {
+          "key": "10.1016/j.ultras.2026.108054_b0020",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.ndteint.2023.103026",
+          "article-title": "Guided waves in long range nondestructive testing and structural health monitoring: Principles, history of applications and prospects",
+          "volume": "142",
+          "author": "Cawley",
+          "year": "2024",
+          "journal-title": "NDT & E Int."
+        },
+        {
+          "issue": "1",
+          "key": "10.1016/j.ultras.2026.108054_b0025",
+          "doi-asserted-by": "crossref",
+          "first-page": "5",
+          "DOI": "10.3390/s17010005",
+          "article-title": "Selection of shear horizontal wave transducers for robotic nondestructive inspection in harsh environments",
+          "volume": "17",
+          "author": "Choi",
+          "year": "2016",
+          "journal-title": "Sensors"
+        },
+        {
+          "key": "10.1016/j.ultras.2026.108054_b0030",
+          "unstructured": "D. Badodkar, N. Singh, N. Dalal, M. Singh, editors. EMAT integrated with vertical climbing robot for boiler tube inspection. Proc of National Seminar & Exhibition on Non-Destructive Evaluation; 2009."
+        },
+        {
+          "issue": "9",
+          "key": "10.1016/j.ultras.2026.108054_b0035",
+          "doi-asserted-by": "crossref",
+          "first-page": "619",
+          "DOI": "10.1016/S0308-0161(99)00052-6",
+          "article-title": "Noise analysis of digital ultrasonic nondestructive evaluation system",
+          "volume": "76",
+          "author": "Chen",
+          "year": "1999",
+          "journal-title": "Int. J. Press. Vessel. Pip."
+        },
+        {
+          "issue": "6",
+          "key": "10.1016/j.ultras.2026.108054_b0040",
+          "doi-asserted-by": "crossref",
+          "first-page": "936",
+          "DOI": "10.3390/met12060936",
+          "article-title": "A review of signal processing techniques for ultrasonic guided wave testing",
+          "volume": "12",
+          "author": "Diogo",
+          "year": "2022",
+          "journal-title": "Metals"
+        },
+        {
+          "key": "10.1016/j.ultras.2026.108054_b0045",
+          "article-title": "An improved u-net method for denoising ultrasonic echo signals in carbon fiber composites",
+          "volume": "107782",
+          "author": "Zhang",
+          "year": "2025",
+          "journal-title": "Ultrasonics"
+        },
+        {
+          "issue": "6",
+          "key": "10.1016/j.ultras.2026.108054_b0050",
+          "doi-asserted-by": "crossref",
+          "first-page": "1146",
+          "DOI": "10.1109/78.923297",
+          "article-title": "Robust wavelet denoising",
+          "volume": "49",
+          "author": "Sardy",
+          "year": "2001",
+          "journal-title": "IEEE Trans. Signal Process."
+        },
+        {
+          "issue": "27",
+          "key": "10.1016/j.ultras.2026.108054_b0055",
+          "doi-asserted-by": "crossref",
+          "first-page": "41539",
+          "DOI": "10.1007/s11042-023-15127-0",
+          "article-title": "Review of wavelet denoising algorithms",
+          "volume": "82",
+          "author": "Halidou",
+          "year": "2023",
+          "journal-title": "Multimed. Tools Appl."
+        },
+        {
+          "issue": "6",
+          "key": "10.1016/j.ultras.2026.108054_b0060",
+          "doi-asserted-by": "crossref",
+          "first-page": "2196",
+          "DOI": "10.1109/TIM.2007.907967",
+          "article-title": "EMD-based signal filtering",
+          "volume": "56",
+          "author": "Boudraa",
+          "year": "2007",
+          "journal-title": "IEEE Trans. Instrum. Meas."
+        },
+        {
+          "issue": "3",
+          "key": "10.1016/j.ultras.2026.108054_b0065",
+          "first-page": "237",
+          "article-title": "Denoising nonlinear time series by adaptive filtering and wavelet shrinkage: a comparison",
+          "volume": "17",
+          "author": "Gao",
+          "year": "2009",
+          "journal-title": "IEEE Signal Process Lett."
+        },
+        {
+          "issue": "5",
+          "key": "10.1016/j.ultras.2026.108054_b0070",
+          "doi-asserted-by": "crossref",
+          "first-page": "2179",
+          "DOI": "10.1007/s40747-021-00428-4",
+          "article-title": "Methods for image denoising using convolutional neural network: a review",
+          "volume": "7",
+          "author": "Ilesanmi",
+          "year": "2021",
+          "journal-title": "Complex Intell. Syst."
+        },
+        {
+          "key": "10.1016/j.ultras.2026.108054_b0075",
+          "doi-asserted-by": "crossref",
+          "unstructured": "A.L. Maas, Q.V. Le, T.M. O'neil, O. Vinyals, P. Nguyen, A.Y. Ng, editors. Recurrent neural networks for noise reduction in robust asr. Interspeech; 2012.",
+          "DOI": "10.21437/Interspeech.2012-6"
+        },
+        {
+          "issue": "11",
+          "key": "10.1016/j.ultras.2026.108054_b0080",
+          "doi-asserted-by": "crossref",
+          "first-page": "9476",
+          "DOI": "10.1109/TGRS.2019.2926772",
+          "article-title": "Seismic signal denoising and decomposition using deep neural networks",
+          "volume": "57",
+          "author": "Zhu",
+          "year": "2019",
+          "journal-title": "IEEE Trans. Geosci. Remote Sens."
+        },
+        {
+          "key": "10.1016/j.ultras.2026.108054_b0085",
+          "unstructured": "O. Ronneberger, P. Fischer, T. Brox, editors. U-net: Convolutional networks for biomedical image segmentation. Medical image computing and computer-assisted intervention–MICCAI 2015: 18th international conference, Munich, Germany, October 5-9, 2015, proceedings, part III 18; 2015: Springer."
+        },
+        {
+          "key": "10.1016/j.ultras.2026.108054_b0090",
+          "unstructured": "D. Stoller, S. Ewert, S. Dixon, Wave-u-net: A multi-scale neural network for end-to-end audio source separation. arXiv preprint arXiv:180603185. 2018."
+        },
+        {
+          "key": "10.1016/j.ultras.2026.108054_b0095",
+          "doi-asserted-by": "crossref",
+          "unstructured": "H.-H. Yang, Y. Fu, editors. Wavelet u-net and the chromatic adaptation transform for single image dehazing. 2019 IEEE International Conference on Image Processing (ICIP); 2019: IEEE.",
+          "DOI": "10.1109/ICIP.2019.8803391"
+        },
+        {
+          "key": "10.1016/j.ultras.2026.108054_b0100",
+          "doi-asserted-by": "crossref",
+          "unstructured": "T. Nakamura, H. Saruwatari, editors. Time-domain audio source separation based on Wave-U-Net combined with discrete wavelet transform. ICASSP 2020-2020 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP); 2020: IEEE.",
+          "DOI": "10.1109/ICASSP40776.2020.9053934"
+        },
+        {
+          "key": "10.1016/j.ultras.2026.108054_b0105",
+          "doi-asserted-by": "crossref",
+          "unstructured": "P. Liu, H. Zhang, K. Zhang, L. Lin, W. Zuo, editors. Multi-level wavelet-CNN for image restoration. Proceedings of the IEEE conference on computer vision and pattern recognition workshops; 2018.",
+          "DOI": "10.1109/CVPRW.2018.00121"
+        },
+        {
+          "key": "10.1016/j.ultras.2026.108054_b0110",
+          "article-title": "Attention is all you need",
+          "volume": "30",
+          "author": "Vaswani",
+          "year": "2017",
+          "journal-title": "Adv. Neural Inf. Proces. Syst."
+        },
+        {
+          "key": "10.1016/j.ultras.2026.108054_b0115",
+          "unstructured": "O. Oktay, J. Schlemper, L.L. Folgoc, M. Lee, M. Heinrich, K. Misawa, et al. Attention u-net: Learning where to look for the pancreas. arXiv preprint arXiv:180403999. 2018."
+        },
+        {
+          "key": "10.1016/j.ultras.2026.108054_b0120",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.compbiomed.2022.106387",
+          "article-title": "A novel denoising method for CT images based on U-net and multi-attention",
+          "volume": "152",
+          "author": "Zhang",
+          "year": "2023",
+          "journal-title": "Comput. Biol. Med."
+        },
+        {
+          "key": "10.1016/j.ultras.2026.108054_b0125",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.ultras.2022.106834",
+          "article-title": "Ultrasonic image denoising using machine learning in point contact excitation and detection method",
+          "volume": "127",
+          "author": "Singh",
+          "year": "2023",
+          "journal-title": "Ultrasonics"
+        },
+        {
+          "issue": "1",
+          "key": "10.1016/j.ultras.2026.108054_b0130",
+          "doi-asserted-by": "crossref",
+          "first-page": "991",
+          "DOI": "10.1038/s41597-025-05300-5",
+          "article-title": "Dataset on guided waves from long-term structural health monitoring under uncontrolled and dynamic conditions",
+          "volume": "12",
+          "author": "Yang",
+          "year": "2025",
+          "journal-title": "Sci. Data"
+        },
+        {
+          "key": "10.1016/j.ultras.2026.108054_b0135",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.ultras.2024.107313",
+          "article-title": "Unsupervised machine learning for flaw detection in automated ultrasonic testing of carbon fibre reinforced plastic composites",
+          "volume": "140",
+          "author": "Tunukovic",
+          "year": "2024",
+          "journal-title": "Ultrasonics"
+        },
+        {
+          "key": "10.1016/j.ultras.2026.108054_b0140",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.ultras.2024.107528",
+          "article-title": "Near-surface defect detection in ultrasonic testing using domain-knowledge-informed self-supervised learning",
+          "volume": "147",
+          "author": "Jeon",
+          "year": "2025",
+          "journal-title": "Ultrasonics"
+        },
+        {
+          "key": "10.1016/j.ultras.2026.108054_b0145",
+          "doi-asserted-by": "crossref",
+          "first-page": "43",
+          "DOI": "10.12688/openreseurope.14358.2",
+          "article-title": "Training neural networks on domain randomized simulations for ultrasonic inspection",
+          "volume": "2",
+          "author": "Schlachter",
+          "year": "2022",
+          "journal-title": "Open Res. Europe"
+        },
+        {
+          "key": "10.1016/j.ultras.2026.108054_b0150",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.ndteint.2023.102978",
+          "article-title": "A comparison of methods for generating synthetic training data for domain adaption of deep learning models in ultrasonic non-destructive evaluation",
+          "volume": "141",
+          "author": "McKnight",
+          "year": "2024",
+          "journal-title": "NDT & E Int."
+        },
+        {
+          "key": "10.1016/j.ultras.2026.108054_b0155",
+          "doi-asserted-by": "crossref",
+          "unstructured": "M. Heesch, K. Mendrok, Z. Dworakowski, editors. Time-domain signal synthesis with style-based generative adversarial networks applied to guided waves. International Conference on Artificial Intelligence and Soft Computing; 2021: Springer.",
+          "DOI": "10.1007/978-3-030-87986-0_7"
+        },
+        {
+          "issue": "1",
+          "key": "10.1016/j.ultras.2026.108054_b0160",
+          "doi-asserted-by": "crossref",
+          "first-page": "4",
+          "DOI": "10.1007/s10921-020-00739-5",
+          "article-title": "Augmented ultrasonic data for machine learning",
+          "volume": "40",
+          "author": "Virkkunen",
+          "year": "2021",
+          "journal-title": "J. Nondestr. Eval."
+        },
+        {
+          "issue": "18",
+          "key": "10.1016/j.ultras.2026.108054_b0165",
+          "doi-asserted-by": "crossref",
+          "first-page": "6695",
+          "DOI": "10.3390/en15186695",
+          "article-title": "A pipe ultrasonic guided wave signal generation network suitable for data enhancement in deep learning: US-WGAN",
+          "volume": "15",
+          "author": "Peng",
+          "year": "2022",
+          "journal-title": "Energies"
+        },
+        {
+          "issue": "5",
+          "key": "10.1016/j.ultras.2026.108054_b0170",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1063/1.5095994",
+          "article-title": "Dual Gaussian attenuation model of ultrasonic echo and its parameter estimation",
+          "volume": "9",
+          "author": "Wang",
+          "year": "2019",
+          "journal-title": "AIP Adv."
+        },
+        {
+          "issue": "3",
+          "key": "10.1016/j.ultras.2026.108054_b0175",
+          "doi-asserted-by": "crossref",
+          "first-page": "811",
+          "DOI": "10.3390/s21030811",
+          "article-title": "Review of current guided wave ultrasonic testing (GWUT) limitations and future directions",
+          "volume": "21",
+          "author": "Olisa",
+          "year": "2021",
+          "journal-title": "Sensors"
+        },
+        {
+          "issue": "21",
+          "key": "10.1016/j.ultras.2026.108054_b0180",
+          "doi-asserted-by": "crossref",
+          "first-page": "8683",
+          "DOI": "10.3390/s23218683",
+          "article-title": "Reconstruction of water-filled pipe ultrasonic guided wave signals in the distance domain by orthogonal matching pursuit based on dispersion and multi-mode",
+          "volume": "23",
+          "author": "Wang",
+          "year": "2023",
+          "journal-title": "Sensors"
+        },
+        {
+          "issue": "4",
+          "key": "10.1016/j.ultras.2026.108054_b0185",
+          "doi-asserted-by": "crossref",
+          "first-page": "600",
+          "DOI": "10.1109/TIP.2003.819861",
+          "article-title": "Image quality assessment: from error visibility to structural similarity",
+          "volume": "13",
+          "author": "Wang",
+          "year": "2004",
+          "journal-title": "IEEE Trans. Image Process."
+        },
+        {
+          "key": "10.1016/j.ultras.2026.108054_b0190",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.ultras.2023.107041",
+          "article-title": "A review of synthetic and augmented training data for machine learning in ultrasonic non-destructive evaluation",
+          "volume": "134",
+          "author": "Uhlig",
+          "year": "2023",
+          "journal-title": "Ultrasonics"
+        },
+        {
+          "key": "10.1016/j.ultras.2026.108054_b0195",
+          "doi-asserted-by": "crossref",
+          "unstructured": "J. Tobin, R. Fong, A. Ray, J. Schneider, W. Zaremba, P. Abbeel, editors. Domain randomization for transferring deep neural networks from simulation to the real world. 2017 IEEE/RSJ international conference on intelligent robots and systems (IROS); 2017: IEEE.",
+          "DOI": "10.1109/IROS.2017.8202133"
+        },
+        {
+          "issue": "4",
+          "key": "10.1016/j.ultras.2026.108054_b0200",
+          "doi-asserted-by": "crossref",
+          "first-page": "727",
+          "DOI": "10.1093/biomet/83.4.727",
+          "article-title": "Understanding WaveShrink: Variance and bias estimation",
+          "volume": "83",
+          "author": "Bruce",
+          "year": "1996",
+          "journal-title": "Biometrika"
+        },
+        {
+          "issue": "3",
+          "key": "10.1016/j.ultras.2026.108054_b0205",
+          "doi-asserted-by": "crossref",
+          "first-page": "613",
+          "DOI": "10.1109/18.382009",
+          "article-title": "De-noising by soft-thresholding",
+          "volume": "41",
+          "author": "Donoho",
+          "year": "2002",
+          "journal-title": "IEEE Trans. Inf. Theory"
+        },
+        {
+          "key": "10.1016/j.ultras.2026.108054_b0210",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Z. Wang, X. Cun, J. Bao, W. Zhou, J. Liu, H. Li, editors. Uformer: A general u-shaped transformer for image restoration. Proceedings of the IEEE/CVF conference on computer vision and pattern recognition; 2022.",
+          "DOI": "10.1109/CVPR52688.2022.01716"
+        },
+        {
+          "key": "10.1016/j.ultras.2026.108054_b0215",
+          "article-title": "Time-series generative adversarial networks",
+          "volume": "32",
+          "author": "Yoon",
+          "year": "2019",
+          "journal-title": "Adv. Neural Inf. Proces. Syst."
+        },
+        {
+          "key": "10.1016/j.ultras.2026.108054_b0220",
+          "doi-asserted-by": "crossref",
+          "unstructured": "R. Yamamoto, E. Song, J.-M. Kim, editors. Parallel WaveGAN: A fast waveform generation model based on generative adversarial networks with multi-resolution spectrogram. ICASSP 2020-2020 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP); 2020: IEEE.",
+          "DOI": "10.1109/ICASSP40776.2020.9053795"
+        },
+        {
+          "issue": "1",
+          "key": "10.1016/j.ultras.2026.108054_b0225",
+          "doi-asserted-by": "crossref",
+          "first-page": "1",
+          "DOI": "10.1186/s40537-019-0197-0",
+          "article-title": "A survey on image data augmentation for deep learning",
+          "volume": "6",
+          "author": "Shorten",
+          "year": "2019",
+          "journal-title": "J. Big Data"
+        }
+      ],
+      "container-title": [
+        "Ultrasonics"
+      ],
+      "original-title": [],
+      "language": "en",
+      "link": [
+        {
+          "URL": "https://api.elsevier.com/content/article/PII:S0041624X2600106X?httpAccept=text/xml",
+          "content-type": "text/xml",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://api.elsevier.com/content/article/PII:S0041624X2600106X?httpAccept=text/plain",
+          "content-type": "text/plain",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            4,
+            14
+          ]
+        ],
+        "date-time": "2026-04-14T07:47:36Z",
+        "timestamp": 1776152856000
+      },
+      "score": 1,
+      "resource": {
+        "primary": {
+          "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0041624X2600106X"
+        }
+      },
+      "subtitle": [],
+      "short-title": [],
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            8
+          ]
+        ]
+      },
+      "references-count": 45,
+      "alternative-id": [
+        "S0041624X2600106X"
+      ],
+      "URL": "https://doi.org/10.1016/j.ultras.2026.108054",
+      "relation": {},
+      "ISSN": [
+        "0041-624X"
+      ],
+      "issn-type": [
+        {
+          "value": "0041-624X",
+          "type": "print"
+        }
+      ],
+      "subject": [],
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            8
+          ]
+        ]
+      },
+      "assertion": [
+        {
+          "value": "Elsevier",
+          "name": "publisher",
+          "label": "This article is maintained by"
+        },
+        {
+          "value": "Application-specific guided-wave ultrasonic signal denoising: Knowledge-guided synthetic data pipeline and wavelet-initialized attention U-Net",
+          "name": "articletitle",
+          "label": "Article Title"
+        },
+        {
+          "value": "Ultrasonics",
+          "name": "journaltitle",
+          "label": "Journal Title"
+        },
+        {
+          "value": "https://doi.org/10.1016/j.ultras.2026.108054",
+          "name": "articlelink",
+          "label": "CrossRef DOI link to publisher maintained version"
+        },
+        {
+          "value": "article",
+          "name": "content_type",
+          "label": "Content Type"
+        },
+        {
+          "value": "© 2026 The Authors. Published by Elsevier B.V.",
+          "name": "copyright",
+          "label": "Copyright"
+        }
+      ],
+      "article-number": "108054"
+    }
+  }
+}

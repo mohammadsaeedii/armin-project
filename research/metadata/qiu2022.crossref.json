@@ -1,0 +1,846 @@
+{
+  "retrieved_date": "2026-10-17",
+  "source_url": "https://api.crossref.org/works/10.1088/1361-6579/ac96cd",
+  "response": {
+    "status": "ok",
+    "message-type": "work",
+    "message-version": "1.0.0",
+    "message": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            6,
+            24
+          ]
+        ],
+        "date-time": "2026-06-24T15:02:17Z",
+        "timestamp": 1782313337521,
+        "version": "3.54.5"
+      },
+      "reference-count": 42,
+      "publisher": "IOP Publishing",
+      "issue": "11",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2022,
+                11,
+                3
+              ]
+            ],
+            "date-time": "2022-11-03T00:00:00Z",
+            "timestamp": 1667433600000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "https://publishingsupport.iopscience.iop.org/iop-standard/v1"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2022,
+                11,
+                3
+              ]
+            ],
+            "date-time": "2022-11-03T00:00:00Z",
+            "timestamp": 1667433600000
+          },
+          "content-version": "tdm",
+          "delay-in-days": 0,
+          "URL": "https://iopscience.iop.org/info/page/text-and-data-mining"
+        }
+      ],
+      "content-domain": {
+        "domain": [
+          "iopscience.iop.org"
+        ],
+        "crossmark-restriction": false
+      },
+      "short-container-title": [
+        "Physiol. Meas."
+      ],
+      "published-print": {
+        "date-parts": [
+          [
+            2022,
+            11,
+            30
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                  <jats:p>\n                    <jats:italic>Objective.</jats:italic>\n                    Electrocardiogram (ECG) signals are easily polluted by various noises which are likely to have adverse effects on subsequent interpretations. Research on model lightweighting can promote the practical application of deep learning-based ECG denoising methods in real-time processing.\n                    <jats:italic>Approach.</jats:italic>\n                    Firstly, grouped convolution and conventional convolution are combined to replace the continuous conventional convolution in the model, and the depthwise convolution with stride is used to compress the feature map in the encoder modules. Secondly, additional identity connections and a local maximum and minimum enhancement module are designed, which can retain the detailed information and characteristic waveform in the ECG waveform while effectively denoising. Finally, we develop knowledge distillation in the experiments, which further improves the ECG denoising performance without increasing the model complexity. The ground-truth ECG is from The China Physiological Signal Challenge (CPSC) 2018, and the noise signal is from the MIT-BIH Noise Stress Test Database (NSTDB). We evaluate denoising performance using the signal-to-noise ratio (SNR), the root mean square error (RMSE) and the Pearson correlation coefficient (\n                    <jats:italic>P</jats:italic>\n                    ). We use the floating point of operations (FLOPs) and parameters to calculate computational complexity.\n                    <jats:italic>Main Results.</jats:italic>\n                    Different data generation processes are used to conduct experiments: group 1, group 2 and group 3. The results show that the proposed model (U\n                    <jats:sub>\n                      <jats:italic>Lde</jats:italic>\n                    </jats:sub>\n                    -net) can improve SNRs by 10.30 dB, 12.16 dB and 12.61 dB; reduce RMSEs by 9.88 × 10\n                    <jats:sup>−2</jats:sup>\n                    , 20.63 × 10\n                    <jats:sup>−2</jats:sup>\n                    and 15.25 × 10\n                    <jats:sup>−2</jats:sup>\n                    ; and increase\n                    <jats:italic>P</jats:italic>\n                    s by 14.77 × 10\n                    <jats:sup>−2</jats:sup>\n                    , 27.74 × 10\n                    <jats:sup>−2</jats:sup>\n                    and 21.32 × 10\n                    <jats:sup>−2</jats:sup>\n                    . Moreover, the denoising performance after knowledge distillation is further improved. The U\n                    <jats:sub>\n                      <jats:italic>Lde</jats:italic>\n                    </jats:sub>\n                    -net has parameters of 6.9 K and FLOPs of 6.6 M, which are much smaller than the compared models.\n                    <jats:italic>Significance.</jats:italic>\n                    We designed a lightweight model, but also retain adequate ECG denoising performance. We believe that this method can be successfully applied to practical applications under time or memory limits.\n                  </jats:p>",
+      "DOI": "10.1088/1361-6579/ac96cd",
+      "type": "journal-article",
+      "created": {
+        "date-parts": [
+          [
+            2022,
+            9,
+            30
+          ]
+        ],
+        "date-time": "2022-09-30T18:45:48Z",
+        "timestamp": 1664563548000
+      },
+      "page": "115004",
+      "update-policy": "https://doi.org/10.1088/crossmark-policy",
+      "source": "Crossref",
+      "is-referenced-by-count": 8,
+      "title": [
+        "A lightweight U-net for ECG denoising using knowledge distillation"
+      ],
+      "prefix": "10.1088",
+      "volume": "43",
+      "author": [
+        {
+          "given": "Lishen",
+          "family": "Qiu",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "School of Biomedical Engineering (Suzhou), Division of Life Sciences and Medicine, University of Science and Technology of China,"
+            },
+            {
+              "name": "Suzhou Institute of Biomedical Engineering and Technology, Chinese Academy of Science,"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Miao",
+          "family": "Zhang",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Suzhou Institute of Biomedical Engineering and Technology, Chinese Academy of Science,"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Wenliang",
+          "family": "Zhu",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "School of Biomedical Engineering (Suzhou), Division of Life Sciences and Medicine, University of Science and Technology of China,"
+            },
+            {
+              "name": "Suzhou Institute of Biomedical Engineering and Technology, Chinese Academy of Science,"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-9172-3746",
+          "authenticated-orcid": true,
+          "given": "Lirong",
+          "family": "Wang",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Soochow University"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "266",
+      "published-online": {
+        "date-parts": [
+          [
+            2022,
+            11,
+            3
+          ]
+        ]
+      },
+      "reference": [
+        {
+          "key": "pmeaac96cdbib1",
+          "doi-asserted-by": "publisher",
+          "first-page": "pp 7350",
+          "DOI": "10.1609/aaai.v34i05.6229",
+          "type": "conference-proceedings",
+          "article-title": "Knowledge distillation from internal representations",
+          "volume": "34",
+          "author": "Aguilar",
+          "year": "2020"
+        },
+        {
+          "key": "pmeaac96cdbib2",
+          "doi-asserted-by": "publisher",
+          "first-page": "pp 325",
+          "DOI": "10.1016/j.procs.2014.08.048",
+          "type": "conference-proceedings",
+          "article-title": "Performance study of different denoising methods for ECG signals",
+          "volume": "37",
+          "author": "AlMahamdy",
+          "year": "2014"
+        },
+        {
+          "key": "pmeaac96cdbib3",
+          "doi-asserted-by": "publisher",
+          "first-page": "1",
+          "DOI": "10.1117/1.JMI.6.1.014006",
+          "type": "journal-article",
+          "article-title": "Recurrent residual U-Net for medical image segmentation",
+          "volume": "6",
+          "author": "Alom",
+          "year": "2019",
+          "journal-title": "J. Med. Imaging"
+        },
+        {
+          "key": "pmeaac96cdbib4",
+          "doi-asserted-by": "publisher",
+          "first-page": "pp 137",
+          "DOI": "10.1109/ICBME.2012.6519677",
+          "type": "conference-proceedings",
+          "article-title": "Comparison of different electrocardiogram signal power line denoising methods based on SNR improvement",
+          "author": "Amiri",
+          "year": "2012"
+        },
+        {
+          "key": "pmeaac96cdbib5",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/I4CT.2015.7219578",
+          "type": "conference-proceedings",
+          "article-title": "Denoising practices for electrocardiographic (ECG) signals: a survey",
+          "author": "Butt",
+          "year": "2015"
+        },
+        {
+          "key": "pmeaac96cdbib6",
+          "doi-asserted-by": "publisher",
+          "first-page": "569",
+          "DOI": "10.1049/iet-spr.2020.0104",
+          "type": "journal-article",
+          "article-title": "Review of noise removal techniques in ECG signals",
+          "volume": "14",
+          "author": "Chatterjee",
+          "year": "2020",
+          "journal-title": "Signal Process."
+        },
+        {
+          "key": "pmeaac96cdbib7",
+          "doi-asserted-by": "publisher",
+          "first-page": "pp 4793",
+          "DOI": "10.1109/ICCV.2019.00489",
+          "type": "conference-proceedings",
+          "article-title": "On the efficacy of knowledge distillation",
+          "author": "Cho",
+          "year": "2019"
+        },
+        {
+          "key": "pmeaac96cdbib8",
+          "doi-asserted-by": "publisher",
+          "first-page": "020508",
+          "DOI": "10.2352/J.ImagingSci.Technol.2020.64.2.020508",
+          "type": "journal-article",
+          "article-title": "Medical image segmentation based on U-Net: a review",
+          "volume": "64",
+          "author": "Du",
+          "year": "2020",
+          "journal-title": "J. Imaging. Sci. Technol."
+        },
+        {
+          "key": "pmeaac96cdbib9",
+          "doi-asserted-by": "publisher",
+          "first-page": "827",
+          "DOI": "10.1007/s00034-020-01498-4",
+          "type": "journal-article",
+          "article-title": "Noise reduction in ECG signal using combined ensemble empirical mode decomposition method with stationary wavelet transform",
+          "volume": "40",
+          "author": "Dwivedi",
+          "year": "2021",
+          "journal-title": "Circ. Syst. Signal Process."
+        },
+        {
+          "key": "pmeaac96cdbib10",
+          "doi-asserted-by": "publisher",
+          "first-page": "pp 6795",
+          "DOI": "10.1109/EMBC46164.2021.9630957",
+          "type": "conference-proceedings",
+          "article-title": "Atrial fibrillation detection on low-power wearables using knowledge distillation",
+          "author": "Faraone",
+          "year": "2021"
+        },
+        {
+          "key": "pmeaac96cdbib11",
+          "doi-asserted-by": "publisher",
+          "first-page": "105",
+          "DOI": "10.1016/j.patrec.2019.04.002",
+          "type": "journal-article",
+          "article-title": "Facial expression recognition boosted by soft label with a diverse ensemble",
+          "volume": "125",
+          "author": "Gan",
+          "year": "2019",
+          "journal-title": "Pattern Recogn. Lett."
+        },
+        {
+          "key": "pmeaac96cdbib12",
+          "doi-asserted-by": "publisher",
+          "first-page": "E215",
+          "DOI": "10.1161/01.CIR.101.23.e215",
+          "type": "journal-article",
+          "article-title": "PhysioBank, PhysioToolkit, and PhysioNet—components of a new research resource for complex physiologic signals",
+          "volume": "101",
+          "author": "Goldberger",
+          "year": "2000",
+          "journal-title": "Circulation"
+        },
+        {
+          "key": "pmeaac96cdbib13",
+          "doi-asserted-by": "publisher",
+          "first-page": "491",
+          "DOI": "10.1016/j.neunet.2020.09.015",
+          "type": "journal-article",
+          "article-title": "Self-grouping convolutional neural networks",
+          "volume": "132",
+          "author": "Guo",
+          "year": "2020",
+          "journal-title": "Neural Netw."
+        },
+        {
+          "key": "pmeaac96cdbib14",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/ICCPCT.2016.7530192",
+          "type": "conference-proceedings",
+          "article-title": "A survey on modern trends in ECG noise removal techniques",
+          "author": "Haritha",
+          "year": "2016"
+        },
+        {
+          "key": "pmeaac96cdbib15",
+          "doi-asserted-by": "publisher",
+          "first-page": "3",
+          "DOI": "10.1002/ett.3710",
+          "type": "journal-article",
+          "article-title": "Edge computing in smart health care systems: review, challenges, and research directions",
+          "volume": "33",
+          "author": "Hartmann",
+          "year": "2022",
+          "journal-title": "T. Emerg. Telecommun. Technol."
+        },
+        {
+          "key": "pmeaac96cdbib16",
+          "doi-asserted-by": "publisher",
+          "first-page": "1052",
+          "DOI": "10.1109/JBHI.2020.3018563",
+          "type": "journal-article",
+          "article-title": "Automatic detection of QRS complexes using dual channels based on U-Net and bidirectional long short-term",
+          "volume": "25",
+          "author": "He",
+          "year": "2021",
+          "journal-title": "J. Biomed. Health Informatics"
+        },
+        {
+          "key": "pmeaac96cdbib17",
+          "doi-asserted-by": "publisher",
+          "first-page": "7403",
+          "DOI": "10.3233/JIFS-200771",
+          "type": "journal-article",
+          "article-title": "Multi-granularity pruning for deep residual networks",
+          "volume": "39",
+          "author": "Huang",
+          "year": "2020",
+          "journal-title": "J. Intell. Fuzzy Syst."
+        },
+        {
+          "key": "pmeaac96cdbib18",
+          "doi-asserted-by": "publisher",
+          "first-page": "499",
+          "DOI": "10.1016/j.bbe.2016.04.001",
+          "type": "journal-article",
+          "article-title": "An efficient algorithm of ECG signal denoising using the adaptive dual threshold filter and the discrete wavelet transform",
+          "volume": "36",
+          "author": "Jenkal",
+          "year": "2016",
+          "journal-title": "Biocybern. Biomed. Eng."
+        },
+        {
+          "key": "pmeaac96cdbib19",
+          "doi-asserted-by": "publisher",
+          "first-page": "1395",
+          "DOI": "10.1109/TCSVT.2020.3007723",
+          "type": "journal-article",
+          "article-title": "Lightweight modules for efficient deep learning based image restoration",
+          "volume": "31",
+          "author": "Lahiri",
+          "year": "2021",
+          "journal-title": "T. Circ. Syst. Vid."
+        },
+        {
+          "key": "pmeaac96cdbib20",
+          "doi-asserted-by": "publisher",
+          "first-page": "92",
+          "DOI": "10.1016/j.neunet.2020.01.026",
+          "type": "journal-article",
+          "article-title": "Mu-net: multi-scale U-net for two-photon microscopy image denoising and restoration",
+          "volume": "125",
+          "author": "Lee",
+          "year": "2020",
+          "journal-title": "Neural Netw."
+        },
+        {
+          "key": "pmeaac96cdbib21",
+          "doi-asserted-by": "publisher",
+          "first-page": "1368",
+          "DOI": "10.1166/jmihi.2018.2442",
+          "type": "journal-article",
+          "article-title": "An open access database for evaluating the algorithms of electrocardiogram rhythm and morphology abnormality detection",
+          "volume": "8",
+          "author": "Liu",
+          "year": "2018",
+          "journal-title": "J. Med. Imag. Health Informatics"
+        },
+        {
+          "key": "pmeaac96cdbib22",
+          "doi-asserted-by": "publisher",
+          "first-page": "215",
+          "DOI": "10.1016/j.patrec.2021.08.011",
+          "type": "journal-article",
+          "article-title": "MSAR-Net: multi-scale attention based light-weight image super-resolution",
+          "volume": "151",
+          "author": "Mehta",
+          "year": "2021",
+          "journal-title": "Pattern Recogn. Lett."
+        },
+        {
+          "key": "pmeaac96cdbib23",
+          "doi-asserted-by": "publisher",
+          "first-page": "pp 4060",
+          "DOI": "10.1109/CVPR46437.2021.00405",
+          "type": "conference-proceedings",
+          "article-title": "HyperSeg: patch-wise hypernetwork for real-time semantic segmentation",
+          "author": "Nirkin",
+          "year": "2021"
+        },
+        {
+          "key": "pmeaac96cdbib24",
+          "doi-asserted-by": "publisher",
+          "first-page": "135",
+          "DOI": "10.3390/electronics9010135",
+          "type": "journal-article",
+          "article-title": "Deep learning-based stacked denoising and autoencoder for ECG heartbeat classification",
+          "volume": "9",
+          "author": "Nurmaini",
+          "year": "2020",
+          "journal-title": "Electronics-Switz"
+        },
+        {
+          "key": "pmeaac96cdbib25",
+          "doi-asserted-by": "publisher",
+          "first-page": "233",
+          "DOI": "10.1016/j.eswa.2018.03.056",
+          "type": "journal-article",
+          "article-title": "Deep learning algorithms for human activity recognition using mobile and wearable sensor networks: state of the art and research challenges",
+          "volume": "105",
+          "author": "Nweke",
+          "year": "2018",
+          "journal-title": "Expert Syst. Appl."
+        },
+        {
+          "key": "pmeaac96cdbib26",
+          "doi-asserted-by": "publisher",
+          "first-page": "92",
+          "DOI": "10.1016/j.compbiomed.2018.12.012",
+          "type": "journal-article",
+          "article-title": "Automated beat-wise arrhythmia diagnosis using modified U-net on extended electrocardiographic recordings with heterogeneous arrhythmia types",
+          "volume": "105",
+          "author": "Oh",
+          "year": "2019",
+          "journal-title": "Comput. Biol. Med."
+        },
+        {
+          "key": "pmeaac96cdbib27",
+          "doi-asserted-by": "publisher",
+          "first-page": "83",
+          "DOI": "10.1016/j.compbiomed.2011.10.012",
+          "type": "journal-article",
+          "article-title": "Empirical mode decomposition based ECG enhancement and QRS detection",
+          "volume": "42",
+          "author": "Pal",
+          "year": "2012",
+          "journal-title": "Comput. Biol. Med."
+        },
+        {
+          "key": "pmeaac96cdbib28",
+          "doi-asserted-by": "publisher",
+          "first-page": "113911",
+          "DOI": "10.1016/j.eswa.2020.113911",
+          "type": "journal-article",
+          "article-title": "DENS-ECG: a deep learning approach for ECG signal delineation",
+          "volume": "165",
+          "author": "Peimankar",
+          "year": "2021",
+          "journal-title": "Expert Syst. Appl."
+        },
+        {
+          "key": "pmeaac96cdbib29",
+          "doi-asserted-by": "publisher",
+          "first-page": "pp 11534",
+          "DOI": "10.1109/CVPR42600.2020.01155",
+          "type": "conference-proceedings",
+          "article-title": "ECA-Net: efficient channel attention for deep convolutional neural networks",
+          "author": "Qilong Wang",
+          "year": "2020"
+        },
+        {
+          "key": "pmeaac96cdbib30",
+          "doi-asserted-by": "publisher",
+          "first-page": "106707",
+          "DOI": "10.1016/j.cmpb.2022.106707",
+          "type": "journal-article",
+          "article-title": "Dual U-Net residual networks for cardiac magnetic resonance images super-resolution",
+          "volume": "218",
+          "author": "Qiu",
+          "year": "2022",
+          "journal-title": "Comput. Meth. Prog. Bio."
+        },
+        {
+          "key": "pmeaac96cdbib31",
+          "doi-asserted-by": "publisher",
+          "first-page": "115002",
+          "DOI": "10.1088/1361-6579/ac34ea",
+          "type": "journal-article",
+          "article-title": "Two-stage ECG signal denoising based on deep convolutional network",
+          "volume": "42",
+          "author": "Qiu",
+          "year": "2021",
+          "journal-title": "Physiol. Meas."
+        },
+        {
+          "key": "pmeaac96cdbib32",
+          "doi-asserted-by": "publisher",
+          "first-page": "pp 234",
+          "DOI": "10.1007/978-3-319-24574-4_28",
+          "type": "conference-proceedings",
+          "article-title": "U-Net: convolutional networks for biomedical image segmentation",
+          "volume": "9351",
+          "author": "Ronneberger",
+          "year": "2015"
+        },
+        {
+          "key": "pmeaac96cdbib33",
+          "doi-asserted-by": "publisher",
+          "first-page": "83",
+          "DOI": "10.1038/s41524-019-0221-0",
+          "type": "journal-article",
+          "article-title": "Recent advances and applications of machine learning in solid-state materials science",
+          "volume": "5",
+          "author": "Schmidt",
+          "year": "2019",
+          "journal-title": "NPJ Comput. Mater."
+        },
+        {
+          "key": "pmeaac96cdbib34",
+          "doi-asserted-by": "publisher",
+          "first-page": "k504",
+          "DOI": "10.1136/bmj.k504",
+          "type": "journal-article",
+          "article-title": "Outcomes of non-invasive diagnostic modalities for the detection of coronary artery disease: network meta-analysis of diagnostic randomised controlled trials",
+          "volume": "360",
+          "author": "Siontis",
+          "year": "2018",
+          "journal-title": "BMJ"
+        },
+        {
+          "key": "pmeaac96cdbib35",
+          "doi-asserted-by": "publisher",
+          "first-page": "pp 5800",
+          "DOI": "10.1609/aaai.v34i04.6037",
+          "type": "conference-proceedings",
+          "article-title": "Efficient facial feature learning with wide ensemble based convolutional neural networks",
+          "volume": "34",
+          "author": "Siqueira",
+          "year": "2020"
+        },
+        {
+          "key": "pmeaac96cdbib36",
+          "doi-asserted-by": "publisher",
+          "first-page": "3092",
+          "DOI": "10.1109/JSEN.2017.2690805",
+          "type": "journal-article",
+          "article-title": "Real-time classification of healthy and apnea subjects using ECG signals with variational mode decomposition",
+          "volume": "17",
+          "author": "Smruthy",
+          "year": "2017",
+          "journal-title": "Sens. J."
+        },
+        {
+          "key": "pmeaac96cdbib37",
+          "doi-asserted-by": "publisher",
+          "first-page": "5964",
+          "DOI": "10.1609/aaai.v34i04.6057",
+          "type": "journal-article",
+          "article-title": "Beyond dropout: feature map distortion to regularize deep neural networks",
+          "volume": "34",
+          "author": "Tang",
+          "year": "2020",
+          "journal-title": "AAAI Conf. on Artif. Intel."
+        },
+        {
+          "key": "pmeaac96cdbib38",
+          "doi-asserted-by": "publisher",
+          "first-page": "869",
+          "DOI": "10.1109/COMST.2020.2970550",
+          "type": "journal-article",
+          "article-title": "Convergence of edge computing and deep learning: a comprehensive survey",
+          "volume": "22",
+          "author": "Wang",
+          "year": "2020",
+          "journal-title": "IEEE Commun. Surv. Tutor."
+        },
+        {
+          "key": "pmeaac96cdbib39",
+          "doi-asserted-by": "publisher",
+          "first-page": "103800",
+          "DOI": "10.1016/j.compbiomed.2020.103800",
+          "type": "journal-article",
+          "article-title": "ECG signal classification with binarized convolutional neural network",
+          "volume": "121",
+          "author": "Wu",
+          "year": "2020",
+          "journal-title": "Comput. Biol. Med."
+        },
+        {
+          "key": "pmeaac96cdbib40",
+          "doi-asserted-by": "publisher",
+          "first-page": "2214",
+          "DOI": "10.1088/0967-3334/37/12/2214",
+          "type": "journal-article",
+          "article-title": "A stacked contractive denoising auto-encoder for ECG signal denoising",
+          "volume": "37",
+          "author": "Xiong",
+          "year": "2016",
+          "journal-title": "Physiol. Meas."
+        },
+        {
+          "key": "pmeaac96cdbib41",
+          "doi-asserted-by": "publisher",
+          "first-page": "pp 3902",
+          "DOI": "10.1109/CVPR42600.2020.00396",
+          "type": "conference-proceedings",
+          "article-title": "Revisiting knowledge distillation via label smoothing regularization",
+          "author": "Yuan",
+          "year": "2020"
+        },
+        {
+          "key": "pmeaac96cdbib42",
+          "doi-asserted-by": "publisher",
+          "first-page": "pp 1713",
+          "DOI": "10.1109/ITOEC49072.2020.9141847",
+          "type": "conference-proceedings",
+          "article-title": "Review of research on lightweight convolutional neural networks",
+          "author": "Zhou",
+          "year": "2020"
+        }
+      ],
+      "container-title": [
+        "Physiological Measurement"
+      ],
+      "original-title": [],
+      "link": [
+        {
+          "URL": "https://iopscience.iop.org/article/10.1088/1361-6579/ac96cd",
+          "content-type": "text/html",
+          "content-version": "am",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://iopscience.iop.org/article/10.1088/1361-6579/ac96cd/pdf",
+          "content-type": "application/pdf",
+          "content-version": "am",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://iopscience.iop.org/article/10.1088/1361-6579/ac96cd",
+          "content-type": "text/html",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://iopscience.iop.org/article/10.1088/1361-6579/ac96cd/pdf",
+          "content-type": "application/pdf",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://iopscience.iop.org/article/10.1088/1361-6579/ac96cd/pdf",
+          "content-type": "application/pdf",
+          "content-version": "am",
+          "intended-application": "syndication"
+        },
+        {
+          "URL": "https://iopscience.iop.org/article/10.1088/1361-6579/ac96cd/pdf",
+          "content-type": "application/pdf",
+          "content-version": "vor",
+          "intended-application": "syndication"
+        },
+        {
+          "URL": "https://iopscience.iop.org/article/10.1088/1361-6579/ac96cd/pdf",
+          "content-type": "application/pdf",
+          "content-version": "am",
+          "intended-application": "similarity-checking"
+        },
+        {
+          "URL": "https://iopscience.iop.org/article/10.1088/1361-6579/ac96cd/pdf",
+          "content-type": "application/pdf",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            5,
+            14
+          ]
+        ],
+        "date-time": "2026-05-14T16:41:18Z",
+        "timestamp": 1778776878000
+      },
+      "score": 1,
+      "resource": {
+        "primary": {
+          "URL": "https://iopscience.iop.org/article/10.1088/1361-6579/ac96cd"
+        }
+      },
+      "subtitle": [],
+      "short-title": [],
+      "issued": {
+        "date-parts": [
+          [
+            2022,
+            11,
+            3
+          ]
+        ]
+      },
+      "references-count": 42,
+      "journal-issue": {
+        "issue": "11",
+        "published-online": {
+          "date-parts": [
+            [
+              2022,
+              11,
+              3
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2022,
+              11,
+              30
+            ]
+          ]
+        }
+      },
+      "URL": "https://doi.org/10.1088/1361-6579/ac96cd",
+      "relation": {},
+      "ISSN": [
+        "0967-3334",
+        "1361-6579"
+      ],
+      "issn-type": [
+        {
+          "value": "0967-3334",
+          "type": "print"
+        },
+        {
+          "value": "1361-6579",
+          "type": "electronic"
+        }
+      ],
+      "subject": [],
+      "published": {
+        "date-parts": [
+          [
+            2022,
+            11,
+            3
+          ]
+        ]
+      },
+      "assertion": [
+        {
+          "value": "A lightweight U-net for ECG denoising using knowledge distillation",
+          "name": "article_title",
+          "label": "Article Title"
+        },
+        {
+          "value": "Physiological Measurement",
+          "name": "journal_title",
+          "label": "Journal Title"
+        },
+        {
+          "value": "paper",
+          "name": "article_type",
+          "label": "Article Type"
+        },
+        {
+          "value": "© 2022 Institute of Physics and Engineering in Medicine. All rights, including for text and data mining, AI training, and similar technologies, are reserved.",
+          "name": "copyright_information",
+          "label": "Copyright Information"
+        },
+        {
+          "value": "2022-06-18",
+          "name": "date_received",
+          "label": "Date Received",
+          "group": {
+            "name": "publication_dates",
+            "label": "Publication dates"
+          }
+        },
+        {
+          "value": "2022-09-30",
+          "name": "date_accepted",
+          "label": "Date Accepted",
+          "group": {
+            "name": "publication_dates",
+            "label": "Publication dates"
+          }
+        },
+        {
+          "value": "2022-11-03",
+          "name": "date_epub",
+          "label": "Online publication date",
+          "group": {
+            "name": "publication_dates",
+            "label": "Publication dates"
+          }
+        }
+      ]
+    }
+  }
+}

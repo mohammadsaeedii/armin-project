@@ -1,0 +1,37 @@
+# Final evidence check and transition record
+
+Recorded 18 October 2026. This supplements, rather than replaces, the initial Phase 1. Originals are preserved in [history](history/phase1_before_final_evidence_check/manifest.json). The researcher subsequently requested coding; that authorizes a bounded Phase 2 development pilot, not a completed main experiment or a novelty claim.
+
+## Stable reference IDs
+
+The follow-up request reversed the two 2026 labels. Existing IDs remain **C9 = Bai et al., random telegraph signals**, **C10 = Yang et al., motor acoustics**. C5 and PTSS1D retain their identities. No citations were silently renumbered.
+
+## Newly inspected evidence
+
+**C5 — still partial access.** Springer and ANU identify the same chapter. Its abstract confirms ECG-ID/MIT-BIH, DAE/CNN/LSTM/GAN, three artifact categories, unseen-noise transfer and downstream balanced accuracy. Exact train/test corruption rules, classical comparator roster and CPU timing remain unresolved. ANU uses 2023; retain the existing 2024 publisher citation year with its online-date note. Springer offers subscription access; no full chapter was obtained. Two indexed CERIST book-PDF leads failed to open. No absence claim is made from these failures. [Publisher](https://doi.org/10.1007/978-981-99-8388-9_40), [ANU](https://researchportalplus.anu.edu.au/en/publications/comparative-assessment-ofmachine-learning-strategies-forelectroca/)
+
+**C9 — methods clarified.** The original article explicitly says benchmark signals were not used for fitting or tuning, and DAEUBL was pretrained without retraining. Its noise scaling differs from the DAEUBL source. It includes denoiser-only SNR and timings as well as full-pipeline outcomes; different digitizers therefore limit attribution of downstream scores, but do not invalidate its denoiser-only comparison. Some trap-error plots include successfully digitized traps only. Synthetic white/pink-noise RTS, structure metrics, time and memory already overlap strongly with this project. A clean matched-versus-held-out training factorial remains unverified. Data are on request. [Methods, results and availability](https://www.nature.com/articles/s41598-026-36656-2)
+
+**C10 — full PMC text now accessible.** Section 4.1 specifies original-recording splits of 70/15/15, before segmentation, and six noise domains derived from MUSAN spectral features using PCA/K-means. Each fold trains/validates on five domains and tests on the sixth. Comparators include wavelet, EMD, CNN-TCN and diffusion methods. Spectral flatness/entropy and downstream recognition are evaluated; the conclusion acknowledges the limitations of non-reference spectral statistics. Exact held-out SNR schedules and an all-CPU timing protocol remain unverified. Data are on request. This is direct counter-evidence to a broad claim about unseen-noise comparisons. [Original full text, §§4.1–5](https://pmc.ncbi.nlm.nih.gov/articles/PMC13417741/)
+
+**PTSS1D — actual README inspected.** Documentation compares clean-target versus residual-target learning in five neural architectures across four application datasets. White or pink noise is selected for both training and evaluation. Training covers nominal −15 to 50 dB; tests −12 to 12 dB are inside that range. Metrics include RMSE, SNR improvement and spectral correlation. The synthetic smoke test is software verification, not a demonstrated analytic-signal benchmark. CPU execution is supported, but that is not a measured CPU benchmark. Datasets/weights are absent and no project license is assigned. GitHub's API identified commit `d820ca11065bbbc5329b94a80d519412fa47a8c1`, dated 17 September 2026. The README was read from the live page, not independently verified against that commit. Paper authorship, publication and DOI remain unverified; no paper citation is invented. [Repository documentation](https://github.com/fzg1023/PTSS1D)
+
+PTSS1D file-page and raw-file opens failed through the web tool. A separate proposed batch download for static inspection was not executed: automatic approval review failed because its usage quota was exhausted, not because it judged the action unsafe. No repository code was executed and no source-level audit is claimed.
+
+**C11 — additional close precedent verified bibliographically.** Alexander Kensert, Gilles Collaerts, Kyriakos Efthymiadis, Peter Van Broeck, Gert Desmet and Deirdre Cabooter, *Deep convolutional autoencoder for the simultaneous removal of baseline noise and baseline drift in chromatograms*, Journal of Chromatography A 1646, 462093 (2021), DOI 10.1016/j.chroma.2021.462093. PubMed and the publisher abstract confirm simulated training and classical comparisons, with real-data checks. Full article methods were not obtained. [PubMed](https://pubmed.ncbi.nlm.nih.gov/33853038/), [publisher](https://www.sciencedirect.com/science/article/abs/pii/S002196732100217X)
+
+Its author repository describes white/pink test sets, classical hyperparameter search and single-CPU-thread evaluation, while warning that CPU training can take days. This is a substantial overlap lead, not evidence of a lightweight or genuinely held-out-type experiment: training composition, feature-error measures and timing details require full methods/source inspection. [Author repository](https://github.com/akensert/autoencoder-chromatogram-enhancement)
+
+## Updated recommendation — narrow, do not replace yet
+
+Retain the scientific question as a controlled replication/extension: **at equal measured input SNR, does a change in noise covariance or tail behavior alter the relative reconstruction and event-recovery errors of frozen source-tuned classical filters and one small CNN? What CPU cost accompanies each quality level?** Keep local event errors as the main added diagnostic; treat efficiency as a measured tradeoff rather than an assumed effect of noise shift.
+
+Scientific usefulness: **medium confidence**. Distinct publishable novelty: **low confidence**, because complementary close precedents exist and crucial methods remain inaccessible. The exact combination was not established as either present or absent. Combining established evaluation ideas or shrinking a CNN does not establish a publishable contribution.
+
+The greatest risks are C9 for combined synthetic/detail/resource evaluation, C10 and C5 for noise-domain transfer, and C11 for synthetic neural/classical CPU evaluation. PTSS1D is a relevant reproducibility/prediction-target precedent, but its documented default protocol does not demonstrate noise-type holdout.
+
+Before a publication claim: obtain C5 and C11 full methods; inspect the DAEUBL training source cited by C9; audit PTSS1D source and publication status; screen the newly found EMD-THNet Doppler study and physics-informed high-impedance-fault denoising study; conduct native academic-database and forward/backward citation searches. This review is not exhaustive.
+
+## Authorization and remaining decisions
+
+The researcher's 18 October request to start coding supersedes the earlier hold **for implementation and a short development pilot**. Keep final evaluation data separate. A full six-run experiment, final scope/feature tolerances, CPU budget, publication positioning and any real-data extension remain researcher decisions. The initial protocol stays a proposal; executable deviations must be recorded. No result is inferred from the literature or from a software smoke test.

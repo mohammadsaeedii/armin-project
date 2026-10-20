@@ -1,0 +1,11 @@
+{
+  "reason": "Preserve initial Phase 1 before requested final evidence check; no prior findings removed.",
+  "files_sha256": {
+    "README.md": "d3a3d3d9b7461320a801eb36e2267560f6b0dd1329bac4232f25bc64b1813ef7",
+    "research/phase1_report.md": "99ce0caeb2164aae2e4dd8b8356162424de073e4bc3c20756a0398704fa9b9da",
+    "research/literature_matrix.md": "c0554cabf297b354b519162eccbb236067fff984420ff2bd775c610f4ce88883",
+    "research/research_gap.md": "3b94e36cf71ff38c1e6fe1ef69c069cf8c7b7653bfed26ffedbde5b871754295",
+    "research/search_strategy.md": "781c5ffb395b2157e903e661248f96b42b8053b40f62f52e684d33611fc5a929",
+    "references.bib": "14acc31c045593d939b6a7faea9a5eccd6c24229502ae4955980a191cbc134a0"
+  }
+}

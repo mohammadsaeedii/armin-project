@@ -1,0 +1,418 @@
+{
+  "retrieved_date": "2026-10-17",
+  "source_url": "https://api.crossref.org/works/10.1021/acsmeasuresciau.1c00054",
+  "response": {
+    "status": "ok",
+    "message-type": "work",
+    "message-version": "1.0.0",
+    "message": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            10,
+            17
+          ]
+        ],
+        "date-time": "2026-10-17T02:58:14Z",
+        "timestamp": 1792205894596,
+        "version": "4.4.0"
+      },
+      "reference-count": 30,
+      "publisher": "American Chemical Society (ACS)",
+      "issue": "2",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2022,
+                2,
+                17
+              ]
+            ],
+            "date-time": "2022-02-17T00:00:00Z",
+            "timestamp": 1645056000000
+          },
+          "content-version": "unspecified",
+          "delay-in-days": 0,
+          "URL": "https://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "funder": [
+        {
+          "DOI": "10.13039/501100002428",
+          "name": "Austrian Science Fund",
+          "doi-asserted-by": "publisher",
+          "award": [
+            "F81"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "F81"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "10.13039/501100002428",
+              "id-type": "DOI",
+              "asserted-by": "publisher"
+            }
+          ]
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "short-container-title": [
+        "ACS Meas. Sci. Au"
+      ],
+      "published-print": {
+        "date-parts": [
+          [
+            2022,
+            4,
+            20
+          ]
+        ]
+      },
+      "DOI": "10.1021/acsmeasuresciau.1c00054",
+      "type": "journal-article",
+      "created": {
+        "date-parts": [
+          [
+            2022,
+            2,
+            18
+          ]
+        ],
+        "date-time": "2022-02-18T02:43:46Z",
+        "timestamp": 1645152226000
+      },
+      "page": "185-196",
+      "source": "Crossref",
+      "is-referenced-by-count": 228,
+      "title": [
+        "Why and How Savitzky–Golay Filters Should Be Replaced"
+      ],
+      "prefix": "10.1021",
+      "volume": "2",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0003-3373-9357",
+          "authenticated-orcid": true,
+          "given": "Michael",
+          "family": "Schmid",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Institute of Applied Physics, TU Wien, 1040 Vienna, Austria"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-2155-207X",
+          "authenticated-orcid": true,
+          "given": "David",
+          "family": "Rath",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Institute of Applied Physics, TU Wien, 1040 Vienna, Austria"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-0319-5256",
+          "authenticated-orcid": true,
+          "given": "Ulrike",
+          "family": "Diebold",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Institute of Applied Physics, TU Wien, 1040 Vienna, Austria"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "316",
+      "published-online": {
+        "date-parts": [
+          [
+            2022,
+            2,
+            18
+          ]
+        ]
+      },
+      "reference": [
+        {
+          "key": "ref1/cit1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/ac60214a047"
+        },
+        {
+          "key": "ref2/cit2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.trac.2009.07.007"
+        },
+        {
+          "key": "ref3/cit3",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1039/C3AY42270D"
+        },
+        {
+          "key": "ref4/cit4",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.trac.2020.116157"
+        },
+        {
+          "key": "ref5/cit5",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/1365-2478.12892"
+        },
+        {
+          "key": "ref6/cit6",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/TSP.2012.2225055"
+        },
+        {
+          "key": "ref7/cit7",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1039/D1AN01560E"
+        },
+        {
+          "key": "ref8/cit8",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/MSP.2011.941097"
+        },
+        {
+          "key": "ref9/cit9",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1063/1.4822961"
+        },
+        {
+          "key": "ref10/cit10",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/ac50031a048"
+        },
+        {
+          "key": "ref11/cit11",
+          "doi-asserted-by": "crossref",
+          "first-page": "301",
+          "DOI": "10.1007/978-0-387-21696-6_11",
+          "volume-title": "Mathematical Systems Theory in Biology, Communications, Computation, and Finance",
+          "author": "Persson P.-O.",
+          "year": "2003"
+        },
+        {
+          "key": "ref12/cit12",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s00034-019-01045-w"
+        },
+        {
+          "key": "ref13/cit13",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3390/s19204382"
+        },
+        {
+          "key": "ref14/cit14",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1017/S0013091500077853"
+        },
+        {
+          "key": "ref15/cit15",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/ac034173t"
+        },
+        {
+          "key": "ref16/cit16",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.csda.2006.11.038"
+        },
+        {
+          "key": "ref17/cit17",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.dsp.2020.102743"
+        },
+        {
+          "key": "ref18/cit18",
+          "volume-title": "Savitzky-Golay Smoothing and Differentiation Filter",
+          "author": "Gallagher N. B.",
+          "year": "2020"
+        },
+        {
+          "key": "ref19/cit19",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/PROC.1978.10837"
+        },
+        {
+          "key": "ref20/cit20",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.sigpro.2014.03.033"
+        },
+        {
+          "key": "ref22/cit22",
+          "volume-title": "Undergraduate Topics in Computer Science",
+          "author": "Burger W.",
+          "year": "2009"
+        },
+        {
+          "key": "ref24/cit24",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/BF02162161"
+        },
+        {
+          "key": "ref26/cit26",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1214/aos/1176346710"
+        },
+        {
+          "key": "ref28/cit28",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/TASSP.1977.1162980"
+        },
+        {
+          "key": "ref29/cit29",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/78.476422"
+        },
+        {
+          "key": "ref30/cit30",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/ac00205a007"
+        },
+        {
+          "key": "ref31/cit31",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1063/1.1137498"
+        },
+        {
+          "key": "ref32/cit32",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/ac50002a769"
+        },
+        {
+          "key": "ref33/cit33",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1366/000370274774332065"
+        },
+        {
+          "key": "ref34/cit34",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.csda.2008.10.036"
+        }
+      ],
+      "container-title": [
+        "ACS Measurement Science Au"
+      ],
+      "original-title": [],
+      "language": "en",
+      "link": [
+        {
+          "URL": "https://pubs.acs.org/doi/pdf/10.1021/acsmeasuresciau.1c00054",
+          "content-type": "application/pdf",
+          "content-version": "vor",
+          "intended-application": "unspecified"
+        },
+        {
+          "URL": "https://pubs.acs.org/doi/pdf/10.1021/acsmeasuresciau.1c00054",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2023,
+            4,
+            25
+          ]
+        ],
+        "date-time": "2023-04-25T21:36:03Z",
+        "timestamp": 1682458563000
+      },
+      "score": 1,
+      "resource": {
+        "primary": {
+          "URL": "https://pubs.acs.org/doi/10.1021/acsmeasuresciau.1c00054"
+        }
+      },
+      "subtitle": [],
+      "short-title": [],
+      "issued": {
+        "date-parts": [
+          [
+            2022,
+            2,
+            18
+          ]
+        ]
+      },
+      "references-count": 30,
+      "journal-issue": {
+        "issue": "2",
+        "published-print": {
+          "date-parts": [
+            [
+              2022,
+              4,
+              20
+            ]
+          ]
+        }
+      },
+      "alternative-id": [
+        "10.1021/acsmeasuresciau.1c00054"
+      ],
+      "URL": "https://doi.org/10.1021/acsmeasuresciau.1c00054",
+      "relation": {},
+      "ISSN": [
+        "2694-250X",
+        "2694-250X"
+      ],
+      "issn-type": [
+        {
+          "value": "2694-250X",
+          "type": "print"
+        },
+        {
+          "value": "2694-250X",
+          "type": "electronic"
+        }
+      ],
+      "subject": [],
+      "published": {
+        "date-parts": [
+          [
+            2022,
+            2,
+            18
+          ]
+        ]
+      }
+    }
+  }
+}

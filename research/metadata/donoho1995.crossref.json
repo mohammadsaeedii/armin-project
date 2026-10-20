@@ -1,0 +1,470 @@
+{
+  "retrieved_date": "2026-10-17",
+  "source_url": "https://api.crossref.org/works/10.1109/18.382009",
+  "response": {
+    "status": "ok",
+    "message-type": "work",
+    "message-version": "1.0.0",
+    "message": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            10,
+            17
+          ]
+        ],
+        "date-time": "2026-10-17T05:19:54Z",
+        "timestamp": 1792214394397,
+        "version": "4.4.0"
+      },
+      "reference-count": 49,
+      "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+      "issue": "3",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                1995,
+                5,
+                1
+              ]
+            ],
+            "date-time": "1995-05-01T00:00:00Z",
+            "timestamp": 799286400000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "https://ieeexplore.ieee.org/Xplorehelp/downloads/license-information/IEEE.html"
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "short-container-title": [
+        "IEEE Trans. Inform. Theory"
+      ],
+      "published-print": {
+        "date-parts": [
+          [
+            1995,
+            5
+          ]
+        ]
+      },
+      "DOI": "10.1109/18.382009",
+      "type": "journal-article",
+      "created": {
+        "date-parts": [
+          [
+            2002,
+            8,
+            24
+          ]
+        ],
+        "date-time": "2002-08-24T16:54:49Z",
+        "timestamp": 1030208089000
+      },
+      "page": "613-627",
+      "source": "Crossref",
+      "is-referenced-by-count": 7667,
+      "title": [
+        "De-noising by soft-thresholding"
+      ],
+      "prefix": "10.1109",
+      "volume": "41",
+      "author": [
+        {
+          "given": "D.L.",
+          "family": "Donoho",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "263",
+      "reference": [
+        {
+          "key": "ref39",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1214/aos/1176349651"
+        },
+        {
+          "key": "ref38",
+          "author": "nemirovskii",
+          "year": "1991"
+        },
+        {
+          "key": "ref32",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/18.119727"
+        },
+        {
+          "key": "ref31",
+          "author": "lu",
+          "year": "1992",
+          "journal-title": "Noise reduction by constrained reconstructions in the wavelet-transform domain"
+        },
+        {
+          "key": "ref30",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1214/aos/1176349742"
+        },
+        {
+          "key": "ref37",
+          "first-page": "258",
+          "article-title": "Rate of convergence of nonparametric estimates of maximum-likelihood type",
+          "volume": "21",
+          "author": "nemirovskii",
+          "year": "1985",
+          "journal-title": "Probl Inform Trans"
+        },
+        {
+          "key": "ref35",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/978-1-4684-2388-4_1"
+        },
+        {
+          "key": "ref34",
+          "first-page": "115",
+          "article-title": "Ondelettes sur l'intervalle",
+          "volume": "7",
+          "year": "1991",
+          "journal-title": "Revista Mat lbero-Americana"
+        },
+        {
+          "key": "ref28",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.4171/RMI/22"
+        },
+        {
+          "key": "ref27",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1007/978-1-4612-5449-2",
+          "author": "leadbetter",
+          "year": "1983",
+          "journal-title": "Extremes and Related Properties of Random Sequences and Processes"
+        },
+        {
+          "key": "ref33a",
+          "author": "meyer",
+          "year": "1990",
+          "journal-title": "Ondelettes et Oprateurs I Ondelettes"
+        },
+        {
+          "key": "ref29",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1137/1134078"
+        },
+        {
+          "key": "ref33b",
+          "year": "1993",
+          "journal-title": "Wavelets and Operators"
+        },
+        {
+          "key": "ref2",
+          "author": "birkhoff",
+          "year": "1969",
+          "journal-title": "Ordinary Differential Equations"
+        },
+        {
+          "key": "ref1",
+          "first-page": "170",
+          "article-title": "The integral of a symmetric unimodal function",
+          "volume": "6",
+          "author": "anderson",
+          "year": "1955",
+          "journal-title": "Trans Amer Math Soc"
+        },
+        {
+          "key": "ref20",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/0022-1236(90)90137-A"
+        },
+        {
+          "key": "ref22",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1214/aos/1176350362"
+        },
+        {
+          "key": "ref21",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1090/cbms/079",
+          "volume": "79",
+          "author": "frazier",
+          "year": "1991",
+          "journal-title": "NSF-CBMS Regional Conf Series in Mathematics"
+        },
+        {
+          "key": "ref24",
+          "article-title": "Empirical functionals and efficient smoothing parameter selection",
+          "volume": "54",
+          "author": "johnstone",
+          "year": "1992",
+          "journal-title": "J Roy Stat Soc"
+        },
+        {
+          "key": "ref23",
+          "first-page": "57",
+          "article-title": "Adaptive asymptotically minimax estimates of smooth signals",
+          "volume": "23",
+          "author": "golubev",
+          "year": "1987",
+          "journal-title": "Probl Pered Inform"
+        },
+        {
+          "key": "ref26",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/0167-7152(92)90231-S"
+        },
+        {
+          "key": "ref25",
+          "article-title": "Estimation d'une densit� de probabilit� par m�thode d'ondelettes",
+          "author": "johnstone",
+          "year": "1992",
+          "journal-title": "Compt Rend Acad Sci Paris"
+        },
+        {
+          "key": "ref36a",
+          "first-page": "50",
+          "article-title": "Nonparametric estimation of smooth regression functions",
+          "volume": "3",
+          "author": "nemirovskii",
+          "year": "1986",
+          "journal-title": "Izv Akad Nauk SSSR Tekh Kibernetika"
+        },
+        {
+          "key": "ref36b",
+          "first-page": "1",
+          "volume": "23",
+          "year": "1986",
+          "journal-title": "J Comput Syst Sci"
+        },
+        {
+          "key": "ref10",
+          "first-page": "259",
+          "author": "donoho",
+          "year": "1993",
+          "journal-title": "Recent Advances in Wavelet Analysis"
+        },
+        {
+          "key": "ref11",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1006/acha.1993.1008"
+        },
+        {
+          "key": "ref40",
+          "first-page": "52",
+          "article-title": "Optimal filtering of square integrable signals in Gaussian white noise",
+          "volume": "16",
+          "author": "pinsker",
+          "year": "1980",
+          "journal-title": "Probl Pered Inform"
+        },
+        {
+          "key": "ref12",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.2307/2337118"
+        },
+        {
+          "key": "ref13",
+          "article-title": "Neo-classical minimax theorems, thresholding, and adaptation",
+          "author": "donoho",
+          "year": "1995",
+          "journal-title": "Bernoulli"
+        },
+        {
+          "key": "ref14",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1214/aos/1024691081"
+        },
+        {
+          "key": "ref15",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.2307/2291512"
+        },
+        {
+          "key": "ref16",
+          "first-page": "301",
+          "article-title": "Wavelet shrinkage: Asymptopia?",
+          "volume": "57",
+          "author": "donoho",
+          "year": "1995",
+          "journal-title": "J Roy Stat Soc"
+        },
+        {
+          "key": "ref17",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1214/aos/1176347758"
+        },
+        {
+          "key": "ref18",
+          "first-page": "58",
+          "article-title": "A learning algorithm for nonparametric filtering",
+          "volume": "11",
+          "author": "efroimovich",
+          "year": "1984",
+          "journal-title": "Automat Telemeh"
+        },
+        {
+          "key": "ref19",
+          "doi-asserted-by": "crossref",
+          "first-page": "777",
+          "DOI": "10.1512/iumj.1985.34.34041",
+          "article-title": "Decomposition of Besov spaces",
+          "author": "frazier",
+          "year": "1985",
+          "journal-title": "Indiana Univ Math J"
+        },
+        {
+          "key": "ref4",
+          "first-page": "417",
+          "article-title": "Multiresolution analysis, wavelets, and fast algorithms on an interval",
+          "volume": "316",
+          "author": "cohen",
+          "year": "1992",
+          "journal-title": "Compt Rend Acad Sci Paris"
+        },
+        {
+          "key": "ref3",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/cpa.3160450502"
+        },
+        {
+          "key": "ref6",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1214/aos/1176325367"
+        },
+        {
+          "key": "ref5",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/BF01889598"
+        },
+        {
+          "key": "ref8",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1006/acha.1995.1008"
+        },
+        {
+          "key": "ref7",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/BF01199020"
+        },
+        {
+          "key": "ref9",
+          "article-title": "Interpolating wavelet transforms",
+          "author": "donoho",
+          "year": "1994",
+          "journal-title": "Appl Computat Harmonic Anal"
+        },
+        {
+          "key": "ref46",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1080/03610927508827223"
+        },
+        {
+          "key": "ref45",
+          "author": "traub",
+          "year": "1988",
+          "journal-title": "Information-Based Complexity"
+        },
+        {
+          "key": "ref47",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1137/1.9781611970128"
+        },
+        {
+          "key": "ref42",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/18.119725"
+        },
+        {
+          "key": "ref41",
+          "first-page": "120",
+          "year": "1980",
+          "journal-title": "Probl Inform Trans"
+        },
+        {
+          "key": "ref44",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1214/aos/1176345969"
+        },
+        {
+          "key": "ref43",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1017/CBO9780511662430.015"
+        }
+      ],
+      "container-title": [
+        "IEEE Transactions on Information Theory"
+      ],
+      "original-title": [],
+      "link": [
+        {
+          "URL": "http://xplorestaging.ieee.org/ielx1/18/8656/00382009.pdf?arnumber=382009",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2021,
+            11,
+            29
+          ]
+        ],
+        "date-time": "2021-11-29T14:07:55Z",
+        "timestamp": 1638194875000
+      },
+      "score": 1,
+      "resource": {
+        "primary": {
+          "URL": "http://ieeexplore.ieee.org/document/382009/"
+        }
+      },
+      "subtitle": [],
+      "short-title": [],
+      "issued": {
+        "date-parts": [
+          [
+            1995,
+            5
+          ]
+        ]
+      },
+      "references-count": 49,
+      "journal-issue": {
+        "issue": "3"
+      },
+      "URL": "https://doi.org/10.1109/18.382009",
+      "relation": {},
+      "ISSN": [
+        "0018-9448"
+      ],
+      "issn-type": [
+        {
+          "value": "0018-9448",
+          "type": "print"
+        }
+      ],
+      "subject": [],
+      "published": {
+        "date-parts": [
+          [
+            1995,
+            5
+          ]
+        ]
+      }
+    }
+  }
+}
